@@ -154,7 +154,7 @@ const a1Curriculum = [
             { eng: "Work", jpn: "働く", exEng: "We work together.", exJpn: "私たちは一緒に働いています。" },
             { eng: "Live", jpn: "住んでいる", exEng: "They live in Tokyo.", exJpn: "彼らは東京に住んでいます。" },
             { eng: "Together", jpn: "一緒に", exEng: "We eat together.", exJpn: "私たちは一緒に食事をします。" },
-            { eng: "Nice to meet you", jpn: "はじめまして", exEng: "Nice to meet you too.", exJpn: "こちらこそはじめまして。" }
+            { eng: "Play", jpn: "遊ぶ", exEng: "I play with my friends.", exJpn: "友達と一緒に遊んでいます。" }
         ],
         dialogue: [
             { speaker: "A", eng: "Hi David. <span class='swappable'>I'd like to introduce you to my friend, Mark.</span>", jpn: "こんにちは、デビッド。私の友達のマークを紹介したいです。" },
@@ -277,7 +277,7 @@ const a1Curriculum = [
             { eng: "Salad", jpn: "サラダ", exEng: "This salad is fresh.", exJpn: "このサラダは新鮮です。" },
             { eng: "Cola", jpn: "コーラ", exEng: "Can I have a cola?", exJpn: "コーラをもらえますか？" },
             { eng: "Coffee", jpn: "コーヒー", exEng: "He drinks coffee.", exJpn: "彼はコーヒーを飲みます。" },
-            { eng: "Meal / Combo", jpn: "セット / コンボ", exEng: "I want a combo meal.", exJpn: "コンボセットが欲しいです。" },
+            { eng: "Meal", jpn: "セット", exEng: "I want a combo meal.", exJpn: "コンボセットが欲しいです。" },
             { eng: "Small", jpn: "Sサイズ / 小さい", exEng: "A small drink, please.", exJpn: "Sサイズの飲み物をお願いします。" },
             { eng: "Medium", jpn: "Mサイズ / 中くらい", exEng: "I want a medium shirt.", exJpn: "Mサイズのシャツが欲しいです。" },
             { eng: "Large", jpn: "Lサイズ / 大きい", exEng: "He has a large dog.", exJpn: "彼は大きな犬を飼っています。" },
@@ -397,7 +397,7 @@ const a1Curriculum = [
         goal: "Refer to specific things that both the speaker and listener know about using the definite article 'the', and compare it to 'a/an'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(定冠詞の『the』を使って、話し手と聞き手の両方が知っている特定のものについて話し、『a/an』と比較する。)</span>",
         vocab: [
             { eng: "The", jpn: "その（特定のものを指す）", exEng: "Pass me the pen.", exJpn: "そのペンを渡してください。" },
-            { eng: "A / An", jpn: "ある1つの（一般的なものを指す）", exEng: "I need a pen.", exJpn: "私はペンが1本必要です。" },
+            { eng: "Thing", jpn: "もの", exEng: "Can you pass me that black thing?", exJpn: "あの黒いもの、渡してもらえますか？" },
             { eng: "Look for", jpn: "〜を探す", exEng: "I am looking for my bag.", exJpn: "私は自分のカバンを探しています。" },
             { eng: "Need", jpn: "必要とする", exEng: "I need a new chair.", exJpn: "新しい椅子が必要です。" },
             { eng: "Exactly", jpn: "まさに / ぴったり", exEng: "That is exactly right.", exJpn: "それはまさにその通りです。" },
@@ -794,13 +794,14 @@ const a1Curriculum = [
         ],
         dialogue: [
             { speaker: "A", eng: "I am planning a barbecue. <span class='swappable'><i class='grammar-target'>Are</i> you free this weekend?</span>", jpn: "バーベキューを計画しています。今週末は暇ですか？" },
-            { speaker: "B", eng: "Yes, I <i class='grammar-target'>am</i>. <span class='swappable'><i class='grammar-target'>Where</i> is the party?</span>", jpn: "はい、暇です。パーティーはどこでありますか？" },
+            { speaker: "B", eng: "Yes, I am. <i class='grammar-target'>Where</i> is the party?</span>", jpn: "はい、暇です。パーティーはどこでありますか？" },
             { speaker: "A", eng: "It is at the big park near the station.", jpn: "駅の近くの大きな公園であります。" },
-            { speaker: "B", eng: "That sounds fun. <span class='swappable'><i class='grammar-target'>When</i> is it?</span>", jpn: "楽しそうですね。それはいつですか？" },
+            { speaker: "B", eng: "That sounds fun. <i class='grammar-target'>When</i> is it?</span>", jpn: "楽しそうですね。それはいつですか？" },
             { speaker: "A", eng: "It starts on Saturday at noon.", jpn: "土曜日の正午に始まります。" },
-            { speaker: "B", eng: "Awesome. <i class='grammar-target'>Who</i>'s going?", jpn: "最高ですね。誰が行くのですか？" },
+            { speaker: "B", eng: "Awesome. Who</i>'s going?", jpn: "最高ですね。誰が行くのですか？" },
             { speaker: "A", eng: "All our friends from the office.", jpn: "オフィスの友達はみんな行きます。" },
-            { speaker: "B", eng: "Perfect. <span class='swappable'><i class='grammar-target'>What</i> should I bring?</span>", jpn: "完璧です。私は何を持っていくべきですか？" }
+            { speaker: "B", eng: "Perfect. <span class='swappable'><i class='grammar-target'>What</i> should I bring?</span>", jpn: "完璧です。私は何を持っていくべきですか？" },
+            { speaker: "A", eng: "Just bring some snacks.", jpn: "おやつを少し持ってきてください。" }
         ],
         dialogueStructure: [
             "State plan + Ask availability <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(予定を伝える ＋ 予定が空いているか尋ねる)</span>",
@@ -810,7 +811,8 @@ const a1Curriculum = [
             "State time <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(時間を伝える)</span>",
             "> React + Ask attendees <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 参加者を尋ねる)</span>",
             "State attendees <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(参加者を伝える)</span>",
-            "> React + Ask what to bring <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 持ち物を尋ねる)</span>"
+            "> React + Ask what to bring <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 持ち物を尋ねる)</span>",
+"Say what to bring to the party <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(パーティーに何を持っていけばいいか教える)</span>"
         ],
         expressions: [
             { 
@@ -822,11 +824,11 @@ const a1Curriculum = [
                 ] 
             },
             { 
-                category: "2. Asking for event details (イベントの詳細を尋ねる 'Wh' 疑問文)", 
+                category: "2. Asking about what you should bring (持参すべきものについて尋ねる)", 
                 options: [
-                    { eng: "Where is the party?", jpn: "パーティーはどこでありますか？" }, 
-                    { eng: "When is it?", jpn: "それはいつですか？" }, 
-                    { eng: "What should I bring?", jpn: "何を持っていくべきですか？" }
+                    { eng: "Should I bring anything with me?", jpn: "何か持っていくべきでしょうか？" }, 
+                    { eng: "What can I bring?", jpn: "何を持って行けばいいですか？" }, 
+                    { eng: "Is there anything you'd like me to bring?", jpn: "何か持ってきてほしいものはありますか？" }
                 ] 
             }
         ],
@@ -1271,7 +1273,8 @@ const a1Curriculum = [
                 { eng: "Old", jpn: "年をとった / 古い", exEng: "This house is old.", exJpn: "この家は古いです。" },
                 { eng: "Friendly", jpn: "フレンドリーな / 友好的な", exEng: "The dog is friendly.", exJpn: "その犬はフレンドリーです。" },
                 { eng: "Shy", jpn: "恥ずかしがり屋の", exEng: "The little boy is shy.", exJpn: "その小さな男の子は恥ずかしがり屋です。" },
-                { eng: "Energetic", jpn: "元気な / エネルギッシュな", exEng: "She is very energetic.", exJpn: "彼女はとてもエネルギッシュです。" }
+                { eng: "Nephew", jpn: "甥", exEng: "My nephew is cute.", exJpn: "甥っ子はかわいい。" },
+    { eng: "Neice", jpn: "姪", exEng: "She is my neice.", exJpn: "彼女は私の姪です。" }
             ],
             reading1: {
                 title: "Task 2: Reading (Blog Post)",
@@ -1309,14 +1312,15 @@ const a1Curriculum = [
             { eng: "Glasses", jpn: "メガネ", exEng: "I wear glasses.", exJpn: "私はメガネをかけています。" },
             { eng: "Beard", jpn: "あごひげ", exEng: "He has a thick beard.", exJpn: "彼には濃いあごひげがあります。" },
             { eng: "Mustache", jpn: "口ひげ", exEng: "My father has a mustache.", exJpn: "私の父には口ひげがあります。" },
+            { eng: "Scar", jpn: "傷跡", exEng: "He has a scar on his face.", exJpn: "彼の顔には傷跡がある。" },
             { eng: "Look like", jpn: "〜に似ている / どんな外見か", exEng: "What does she look like?", exJpn: "彼女はどんな外見ですか？" }
         ],
         dialogue: [
             { speaker: "A", eng: "I am looking for my new coworker, Tom. <span class='swappable'>What does he look like?</span>", jpn: "新しい同僚のトムを探しています。彼はどんな外見ですか？" },
             { speaker: "B", eng: "He is quite tall. And he <i class='grammar-target'>has</i> short black hair.", jpn: "彼はとても背が高いです。そして、彼は短い黒髪です。" },
-            { speaker: "A", eng: "Okay. <span class='swappable'>Does he <i class='grammar-target'>have</i> a beard?</span>", jpn: "わかりました。彼にはあごひげがありますか？" },
+            { speaker: "A", eng: "Okay. Does he <i class='grammar-target'>have</i> a beard?</span>", jpn: "わかりました。彼にはあごひげがありますか？" },
             { speaker: "B", eng: "No, he doesn't. But he <i class='grammar-target'>has</i> a mustache.", jpn: "いいえ、ありません。でも、口ひげがあります。" },
-            { speaker: "A", eng: "I see. What about his eyes?", jpn: "なるほど。彼の目はどうですか？" },
+            { speaker: "A", eng: "I see. <span class='swappable'>What about his eyes?</span>", jpn: "なるほど。彼の目はどうですか？" },
             { speaker: "B", eng: "He <i class='grammar-target'>has</i> brown eyes. I think he is in the meeting room.", jpn: "彼は茶色い目をしています。会議室にいると思いますよ。" }
         ],
         dialogueStructure: [
@@ -1331,17 +1335,17 @@ const a1Curriculum = [
             { 
                 category: "1. Asking about appearance (外見について尋ねる)", 
                 options: [
-                    { eng: "What does he look like?", jpn: "彼はどんな外見ですか？" }, 
-                    { eng: "What do they look like?", jpn: "彼らはどんな外見ですか？" }, 
-                    { eng: "What does she look like?", jpn: "彼女はどんな外見ですか？" }
+                    { eng: "Can you describe his physical appearance?", jpn: "彼の容姿を説明していただけますか？" }, 
+                    { eng: "How would you describe him?", jpn: "彼をどのように表現しますか？" }, 
+                    { eng: "What's his appearance like?", jpn: "彼の見た目はどんな感じですか？" }
                 ] 
             },
             { 
-                category: "2. Asking about specific features (特定の特徴について尋ねる)", 
+                category: "2. Asking about eyes (特定の特徴について尋ねる)", 
                 options: [
-                    { eng: "Does he have a beard?", jpn: "彼にはあごひげがありますか？" }, 
-                    { eng: "Does she have blue eyes?", jpn: "彼女は青い目をしていますか？" }, 
-                    { eng: "Do they have dark hair?", jpn: "彼らは暗い色の髪をしていますか？" }
+                    { eng: "What color are his eyes?", jpn: "彼の目の色は何色ですか？" }, 
+                    { eng: "What color eyes does he have?", jpn: "彼の目の色は何色ですか？" }, 
+                    { eng: "Can you tell me his eye color?", jpn: "彼の目の色を教えていただけますか？" }
                 ] 
             }
         ],
@@ -1420,264 +1424,265 @@ const a1Curriculum = [
             }
         }
     },
-    {
-        id: 12,
-        title: "Lesson 12: How to talk about important dates",
-        goal: "Talk about birthdays, meetings, and important events using days of the week and ordinal numbers (1st, 2nd, 3rd...). <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(曜日と序数（1st, 2nd, 3rd...）を使って、誕生日、会議、重要なイベントについて話す。)</span>",
-        vocab: [
-            { eng: "First", jpn: "1日 / 1番目の", exEng: "It is the first of May.", exJpn: "5月の1日です。" },
-            { eng: "Second", jpn: "2日 / 2番目の", exEng: "Take the second door.", exJpn: "2番目のドアを入ってください。" },
-            { eng: "Third", jpn: "3日 / 3番目の", exEng: "My birthday is on the third.", exJpn: "私の誕生日は3日です。" },
-            { eng: "Fourth", jpn: "4日 / 4番目の", exEng: "The meeting is on the fourth.", exJpn: "会議は4日です。" },
-            { eng: "Birthday", jpn: "誕生日", exEng: "Happy birthday!", exJpn: "誕生日おめでとう！" },
-            { eng: "Date", jpn: "日付", exEng: "What is the date?", exJpn: "日付は何ですか？" },
-            { eng: "Monday", jpn: "月曜日", exEng: "I work on Monday.", exJpn: "私は月曜日に働きます。" },
-            { eng: "Tuesday", jpn: "火曜日", exEng: "See you on Tuesday.", exJpn: "火曜日に会いましょう。" },
-            { eng: "Wednesday", jpn: "水曜日", exEng: "We meet on Wednesday.", exJpn: "私たちは水曜日に会います。" },
-            { eng: "Thursday", jpn: "木曜日", exEng: "The test is on Thursday.", exJpn: "テストは木曜日です。" },
-            { eng: "Friday", jpn: "金曜日", exEng: "I love Friday.", exJpn: "私は金曜日が大好きです。" },
-            { eng: "Saturday", jpn: "土曜日", exEng: "Let's play on Saturday.", exJpn: "土曜日に遊びましょう。" },
-            { eng: "Sunday", jpn: "日曜日", exEng: "I rest on Sunday.", exJpn: "私は日曜日に休みます。" },
-            { eng: "Important", jpn: "重要な / 大切な", exEng: "This is very important.", exJpn: "これはとても重要です。" }
+  {
+        "id": 12,
+        "title": "Lesson 12: How to talk about important dates",
+        "goal": "Talk about birthdays, meetings, and important events using days of the week and ordinal numbers (1st, 2nd, 3rd...). <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(曜日と序数（1st, 2nd, 3rd...）を使って、誕生日、会議、重要なイベントについて話す。)</span>",
+        "vocab": [
+            { "eng": "First", "jpn": "1日 / 1番目の", "exEng": "It is the first of May.", "exJpn": "5月の1日です。" },
+            { "eng": "Second", "jpn": "2日 / 2番目の", "exEng": "Take the second door.", "exJpn": "2番目のドアを入ってください。" },
+            { "eng": "Third", "jpn": "3日 / 3番目の", "exEng": "My birthday is on the third.", "exJpn": "私の誕生日は3日です。" },
+            { "eng": "Fourth", "jpn": "4日 / 4番目の", "exEng": "The meeting is on the fourth.", "exJpn": "会議は4日です。" },
+            { "eng": "Birthday", "jpn": "誕生日", "exEng": "Happy birthday!", "exJpn": "誕生日おめでとう！" },
+            { "eng": "Date", "jpn": "日付", "exEng": "What is the date?", "exJpn": "日付は何ですか？" },
+            { "eng": "Monday", "jpn": "月曜日", "exEng": "I work on Monday.", "exJpn": "私は月曜日に働きます。" },
+            { "eng": "Tuesday", "jpn": "火曜日", "exEng": "See you on Tuesday.", "exJpn": "火曜日に会いましょう。" },
+            { "eng": "Wednesday", "jpn": "水曜日", "exEng": "We meet on Wednesday.", "exJpn": "私たちは水曜日に会います。" },
+            { "eng": "Thursday", "jpn": "木曜日", "exEng": "The test is on Thursday.", "exJpn": "テストは木曜日です。" },
+            { "eng": "Friday", "jpn": "金曜日", "exEng": "I love Friday.", "exJpn": "私は金曜日が大好きです。" },
+            { "eng": "Saturday", "jpn": "土曜日", "exEng": "Let's play on Saturday.", "exJpn": "土曜日に遊びましょう。" },
+            { "eng": "Sunday", "jpn": "日曜日", "exEng": "I rest on Sunday.", "exJpn": "私は日曜日に休みます。" },
+            { "eng": "Important", "jpn": "重要な / 大切な", "exEng": "This is very important.", "exJpn": "これはとても重要です。" }
         ],
-        dialogue: [
-            { speaker: "A", eng: "Excuse me. <span class='swappable'>What is the date today?</span>", jpn: "すみません。今日は何日ですか？" },
-            { speaker: "B", eng: "Today is Monday. It is <i class='grammar-target'>the first</i> of May.", jpn: "今日は月曜日です。5月の1日です。" },
-            { speaker: "A", eng: "Oh, wow! My birthday is <i class='grammar-target'>on the second</i>.", jpn: "おお、わあ！私の誕生日は2日です。" },
-            { speaker: "B", eng: "Happy early birthday! <span class='swappable'>Are you doing anything special?</span>", jpn: "少し早いけど誕生日おめでとう！何か特別なことをしますか？" },
-            { speaker: "A", eng: "Yes, I am having a party <i class='grammar-target'>on Saturday</i>.", jpn: "はい、土曜日にパーティーをします。" },
-            { speaker: "B", eng: "That sounds fun. I hope you have a great day!", jpn: "楽しそうですね。素晴らしい一日になることを願っています！" }
+        "dialogue": [
+            { "speaker": "A", "eng": "<span class='swappable'>Are you free</span> <i class='grammar-target'>on the fourth</i>?", "jpn": "4日は暇ですか？" },
+            { "speaker": "B", "eng": "No, <span class='swappable'>I am busy.</span> How about <i class='grammar-target'>the fifth</i>?", "jpn": "いいえ、忙しいです。5日はどうですか？" },
+            { "speaker": "A", "eng": "I work <i class='grammar-target'>on the fifth</i>. Are you free <i class='grammar-target'>on the sixth</i>?", "jpn": "5日は仕事です。6日は暇ですか？" },
+            { "speaker": "B", "eng": "I have a meeting <i class='grammar-target'>on the sixth</i>. What about <i class='grammar-target'>the seventh</i>?", "jpn": "6日は会議があります。7日はどうですか？" },
+            { "speaker": "A", "eng": "Yes, I am free <i class='grammar-target'>on the seventh</i>!", "jpn": "はい、7日は暇です！" },
+            { "speaker": "B", "eng": "Great! Let's have lunch together.", "jpn": "素晴らしい！一緒に昼ごはんを食べましょう。" }
         ],
-        dialogueStructure: [
-            "Get attention + Ask the date <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(声をかける ＋ 日付を尋ねる)</span>",
-            "> State day + State date <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(曜日を伝える ＋ 日付を伝える)</span>",
-            "React + State personal event date <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 個人的なイベントの日付を伝える)</span>",
-            "> Congratulate + Ask about plans <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(お祝いを言う ＋ 予定を尋ねる)</span>",
-            "State plan with day <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(曜日とともに予定を伝える)</span>",
-            "> React + Wish them well <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 良い日になるよう願う)</span>"
+        "dialogueStructure": [
+            "Ask about free time (Day 1) <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(空いている日を尋ねる - 1日目)</span>",
+            "> Decline + Ask about free time (Day 2) <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(断る ＋ 空いている日を尋ねる - 2日目)</span>",
+            "Decline + Ask about free time (Day 3) <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(断る ＋ 空いている日を尋ねる - 3日目)</span>",
+            "> Decline + Ask about free time (Day 4) <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(断る ＋ 空いている日を尋ねる - 4日目)</span>",
+            "Accept (Free on Day 4) <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(承諾する - 4日目は暇である)</span>",
+            "> Make a plan together <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(一緒に予定を立てる)</span>"
         ],
-        expressions: [
+        "expressions": [
             { 
-                category: "1. Asking about dates and days (日付や曜日を尋ねる)", 
-                options: [
-                    { eng: "What is the date today?", jpn: "今日は何日ですか？" }, 
-                    { eng: "What day is it today?", jpn: "今日は何曜日ですか？" }, 
-                    { eng: "When is the meeting?", jpn: "会議はいつですか？" }
+                "category": "1. Asking about plans (予定を尋ねる)", 
+                "options": [
+                    { "eng": "Are you doing anything special?", "jpn": "何か特別なことをしますか？" }, 
+                    { "eng": "Are you free on Friday?", "jpn": "金曜日は暇ですか？" }, 
+                    { "eng": "Do you have any plans?", "jpn": "何か予定はありますか？" }
                 ] 
             },
             { 
-                category: "2. Asking about plans (予定を尋ねる)", 
-                options: [
-                    { eng: "Are you doing anything special?", jpn: "何か特別なことをしますか？" }, 
-                    { eng: "Are you busy on Friday?", jpn: "金曜日は忙しいですか？" }, 
-                    { eng: "Do you have any plans?", jpn: "何か予定はありますか？" }
+                "category": "2. Saying you are busy (「忙しい」と言うこと)", 
+                "options": [
+                    { "eng": "I already have plans.", "jpn": "もう予定が入っています。" }, 
+                    { "eng": "That day is not good.", "jpn": "その日は都合が悪いです。" }, 
+                    { "eng": "I have work.", "jpn": "仕事があります。" }
                 ] 
             }
         ],
-        grammar: {
-            point: "Ordinal Numbers and Days of the Week - 序数と曜日",
-            explanation: "When we talk about dates in English, we use <strong>ordinal numbers</strong> (first, second, third, fourth...), not cardinal numbers (one, two, three). We use the preposition <strong>on</strong> before days of the week and specific dates.<br>• <strong>Days:</strong> <em>on</em> Monday, <em>on</em> Friday<br>• <strong>Dates:</strong> <em>on</em> the first, <em>on</em> the second of May <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>（英語で日付（〜日）を言う時は、one, two, three などの「基数（数を数える言葉）」ではなく、first, second, third などの「序数（順序を表す言葉）」を使います。「5月1日」なら「the first of May」または「May first」となります。「〜曜日に」や「〜日に」と、特定の日にちを指定して予定を話す時には、必ず前に前置詞の <strong>on</strong> を付けます（例：on Monday、on the second）。月だけの時は in May となりますが、日付が入ると on になる点に注意しましょう。）</span>",
-            inDialogue: "<strong>Usage in Dialogue:</strong> Notice the use of ordinal numbers for the date: '<u>the first</u> of May' and 'on <u>the second</u>'. Also notice the preposition 'on' before the day: '<u>on</u> Saturday'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：日付を表す序数の使い方に注目してください：『<u>the first</u> of May』『on <u>the second</u>』。また、曜日の前の前置詞『on』にも注目してください：『<u>on</u> Saturday』。)</span>",
-            examples: [
-                { eng: "The meeting is on Wednesday.", jpn: "会議は水曜日にあります。" },
-                { eng: "Her birthday is the third of November.", jpn: "彼女の誕生日は11月3日です。" },
-                { eng: "I will see you on the fifth.", jpn: "5日にお会いしましょう。" }
+        "grammar": {
+            "point": "Ordinal Numbers and Days of the Week - 序数と曜日",
+            "explanation": "When we talk about dates in English, we use <strong>ordinal numbers</strong> (first, second, third, fourth...), not cardinal numbers (one, two, three). We use the preposition <strong>on</strong> before days of the week and specific dates.<br>• <strong>Days:</strong> <em>on</em> Monday, <em>on</em> Friday<br>• <strong>Dates:</strong> <em>on</em> the first, <em>on</em> the second of May <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>（英語で日付（〜日）を言う時は、one, two, three などの「基数（数を数える言葉）」ではなく、first, second, third などの「序数（順序を表す言葉）」を使います。「5月1日」なら「the first of May」または「May first」となります。「〜曜日に」や「〜日に」と、特定の日にちを指定して予定を話す時には、必ず前に前置詞の <strong>on</strong> を付けます（例：on Monday、on the second）。月だけの時は in May となりますが、日付が入ると on になる点に注意しましょう。）</span>",
+            "inDialogue": "<strong>Usage in Dialogue:</strong> Notice the use of ordinal numbers for the date: 'on <u>the fourth</u>' and 'on <u>the sixth</u>'. Also notice the preposition 'on' before the dates. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：日付を表す序数の使い方に注目してください：『on <u>the fourth</u>』『on <u>the sixth</u>』。また、日付の前の前置詞『on』にも注目してください。)</span>",
+            "examples": [
+                { "eng": "The meeting is on Wednesday.", "jpn": "会議は水曜日にあります。" },
+                { "eng": "Her birthday is the third of November.", "jpn": "彼女の誕生日は11月3日です。" },
+                { "eng": "I will see you on the fifth.", "jpn": "5日にお会いしましょう。" }
             ]
         },
-        grammarPracticeExample: { 
-            prompt: "The meeting / Monday", 
-            target: "The meeting is on Monday." 
+        "grammarPracticeExample": { 
+            "prompt": "The meeting / be / Monday 9", 
+            "target": "The meeting is on Monday the 9th." 
         },
-        grammarPractice: [
-            { prompt: "My birthday / the third" },
-            { prompt: "The party / Saturday" },
-            { prompt: "The test / the fourth" },
-            { prompt: "I work / Tuesday" },
-            { prompt: "We meet / the second of May" }
+        "grammarPractice": [
+            { "prompt": "My birthday / be / 3" },
+            { "prompt": "The party / be / Saturday 12" },
+            { "prompt": "The test / be / 4" },
+            { "prompt": "I / need to work / 7" },
+            { "prompt": "Let's / meet / 28 October" }
         ],
-        clickingGames: [
-            { prompt: "今日は何日ですか？", target: "What is the date today?", words: ["What", "is", "the", "date", "today?"] },
-            { prompt: "私の誕生日は2日です。", target: "My birthday is on the second.", words: ["My", "birthday", "is", "on", "the", "second."] },
-            { prompt: "最初の会議は月曜日にあります。", target: "The first meeting is on Monday.", words: ["The", "first", "meeting", "is", "on", "Monday."] },
-            { prompt: "3日にお会いしましょう。", target: "I will see you on the third.", words: ["I", "will", "see", "you", "on", "the", "third."] },
-            { prompt: "何か特別なことをしますか？", target: "Are you doing anything special?", words: ["Are", "you", "doing", "anything", "special?"] }
+        "clickingGames": [
+            { "prompt": "今日は何日ですか？", "target": "What is the date today?", "words": ["What", "is", "the", "date", "today?"] },
+            { "prompt": "私の誕生日は2日です。", "target": "My birthday is on the second.", "words": ["My", "birthday", "is", "on", "the", "second."] },
+            { "prompt": "最初の会議は月曜日にあります。", "target": "The first meeting is on Monday.", "words": ["The", "first", "meeting", "is", "on", "Monday."] },
+            { "prompt": "3日にお会いしましょう。", "target": "I will see you on the third.", "words": ["I", "will", "see", "you", "on", "the", "third."] },
+            { "prompt": "4日は暇ですか？", "target": "Are you free on the fourth?", "words": ["Are", "you", "free", "on", "the", "fourth?"] }
         ],
-        dropdownGames: [
-            { before: "The meeting is", options: ["on", "in", "at"], answer: "on", after: " Friday morning." },
-            { before: "My birthday is", options: ["on", "the", "in"], answer: "the", after: " fourth of July." },
-            { before: "Today is the", options: ["two", "second", "three"], answer: "second", after: " of the month." },
-            { before: "Are you busy", options: ["on", "in", "at"], answer: "on", after: " Sunday?" },
-            { before: "She won", options: ["one", "first", "once"], answer: "first", after: " prize in the contest." }
+        "dropdownGames": [
+            { "before": "The meeting is", "options": ["on", "in", "at"], "answer": "on", "after": " Friday morning." },
+            { "before": "My birthday is", "options": ["on", "the", "in"], "answer": "the", "after": " fourth of July." },
+            { "before": "Today is the", "options": ["two", "second", "three"], "answer": "second", "after": " of the month." },
+            { "before": "Are you free", "options": ["on", "in", "at"], "answer": "on", "after": " Sunday?" },
+            { "before": "She won", "options": ["one", "first", "once"], "answer": "first", "after": " prize in the contest." }
         ],
-        roleplay: {
-            a: "Ask your partner when their birthday is. Then ask what day of the week it is on this year. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(パートナーにいつが誕生日か尋ねてください。そして、今年はそれが何曜日になるか尋ねてください。)</span>",
-            b: "Tell your partner your birthday using an ordinal number (e.g., the fifth of May). Tell them what day it is on. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(序数を使って誕生日を伝えてください。それが何曜日か伝えてください。)</span>"
+        "roleplay": {
+            "a": "Ask your partner if they are free on the 10th. If they are busy, ask about the 11th. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(パートナーに10日が暇かどうか尋ねてください。もし忙しければ、11日について尋ねてください。)</span>",
+            "b": "Tell your partner you are busy on the 10th, but you are free on the 11th. Make a plan together! <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(パートナーに10日は忙しいが、11日は暇だと伝えてください。一緒に予定を立てましょう！)</span>"
         },
-        homework: {
-            vocab: [
-                { eng: "January", jpn: "1月", exEng: "It is cold in January.", exJpn: "1月は寒いです。" },
-                { eng: "February", jpn: "2月", exEng: "Valentine's Day is in February.", exJpn: "バレンタインデーは2月にあります。" },
-                { eng: "March", jpn: "3月", exEng: "Spring starts in March.", exJpn: "春は3月に始まります。" },
-                { eng: "April", jpn: "4月", exEng: "School starts in April.", exJpn: "学校は4月に始まります。" },
-                { eng: "May", jpn: "5月", exEng: "We have holidays in May.", exJpn: "5月には休日があります。" },
-                { eng: "June", jpn: "6月", exEng: "It rains a lot in June.", exJpn: "6月は雨がたくさん降ります。" },
-                { eng: "July", jpn: "7月", exEng: "July is very hot.", exJpn: "7月はとても暑いです。" },
-                { eng: "August", jpn: "8月", exEng: "We travel in August.", exJpn: "私たちは8月に旅行します。" },
-                { eng: "September", jpn: "9月", exEng: "September is cool.", exJpn: "9月は涼しいです。" },
-                { eng: "October", jpn: "10月", exEng: "Halloween is in October.", exJpn: "ハロウィンは10月にあります。" },
-                { eng: "November", jpn: "11月", exEng: "My birthday is in November.", exJpn: "私の誕生日は11月です。" },
-                { eng: "December", jpn: "12月", exEng: "Christmas is in December.", exJpn: "クリスマスは12月にあります。" },
-                { eng: "Month", jpn: "月", exEng: "This is a busy month.", exJpn: "今月は忙しい月です。" },
-                { eng: "Year", jpn: "年", exEng: "Happy New Year!", exJpn: "あけましておめでとう！" }
+        "homework": {
+            "vocab": [
+                { "eng": "January", "jpn": "1月", "exEng": "It is cold in January.", "exJpn": "1月は寒いです。" },
+                { "eng": "February", "jpn": "2月", "exEng": "Valentine's Day is in February.", "exJpn": "バレンタインデーは2月にあります。" },
+                { "eng": "March", "jpn": "3月", "exEng": "Spring starts in March.", "exJpn": "春は3月に始まります。" },
+                { "eng": "April", "jpn": "4月", "exEng": "School starts in April.", "exJpn": "学校は4月に始まります。" },
+                { "eng": "May", "jpn": "5月", "exEng": "We have holidays in May.", "exJpn": "5月には休日があります。" },
+                { "eng": "June", "jpn": "6月", "exEng": "It rains a lot in June.", "exJpn": "6月は雨がたくさん降ります。" },
+                { "eng": "July", "jpn": "7月", "exEng": "July is very hot.", "exJpn": "7月はとても暑いです。" },
+                { "eng": "August", "jpn": "8月", "exEng": "We travel in August.", "exJpn": "私たちは8月に旅行します。" },
+                { "eng": "September", "jpn": "9月", "exEng": "September is cool.", "exJpn": "9月は涼しいです。" },
+                { "eng": "October", "jpn": "10月", "exEng": "Halloween is in October.", "exJpn": "ハロウィンは10月にあります。" },
+                { "eng": "November", "jpn": "11月", "exEng": "My birthday is in November.", "exJpn": "私の誕生日は11月です。" },
+                { "eng": "December", "jpn": "12月", "exEng": "Christmas is in December.", "exJpn": "クリスマスは12月にあります。" },
+                { "eng": "Month", "jpn": "月", "exEng": "This is a busy month.", "exJpn": "今月は忙しい月です。" },
+                { "eng": "Year", "jpn": "年", "exEng": "Happy New Year!", "exJpn": "あけましておめでとう！" }
             ],
-            reading1: {
-                title: "Task 2: Reading (A Busy Month)",
-                instruction: "Read the diary entry about important dates in October.",
-                eng: "<strong>A Busy October</strong><br><br>October is a very busy month for my family. My mother's birthday is on the third of October. We usually have a big dinner for her. Then, my sister has an important school test on the twelfth. She studies every day. My favorite day is Halloween. It is always on the thirty-first of October. This year, it is on a Tuesday, but I am still going to a fun party with my friends. I love the month of October!",
-                jpn: "<strong>忙しい10月</strong><br><br>10月は私の家族にとってとても忙しい月です。母の誕生日は10月3日です。私たちはいつも彼女のために豪華な夕食をとります。それから、姉（妹）は12日に重要な学校のテストがあります。彼女は毎日勉強しています。私が一番好きな日はハロウィンです。それはいつも10月31日です。今年は火曜日ですが、それでも友達と楽しいパーティーに行く予定です。私は10月という月が大好きです！"
+            "reading1": {
+                "title": "Task 2: Reading (A Busy Month)",
+                "instruction": "Read the diary entry about important dates in October.",
+                "eng": "<strong>A Busy October</strong><br><br>October is a very busy month for my family. My mother's birthday is on the third of October. We usually have a big dinner for her. Then, my sister has an important school test on the twelfth. She studies every day. My favorite day is Halloween. It is always on the thirty-first of October. This year, it is on a Tuesday, but I am still going to a fun party with my friends. I love the month of October!",
+                "jpn": "<strong>忙しい10月</strong><br><br>10月は私の家族にとってとても忙しい月です。母の誕生日は10月3日です。私たちはいつも彼女のために豪華な夕食をとります。それから、姉（妹）は12日に重要な学校のテストがあります。彼女は毎日勉強しています。私が一番好きな日はハロウィンです。それはいつも10月31日です。今年は火曜日ですが、それでも友達と楽しいパーティーに行く予定です。私は10月という月が大好きです！"
             },
-            expandedDialogue: [
-                { speaker: "A", eng: "Look at the calendar. We have a lot of meetings next week.", jpn: "カレンダーを見てください。来週は会議がたくさんありますね。" },
-                { speaker: "B", eng: "Really? When is the first meeting?", jpn: "本当ですか？最初の会議はいつですか？" },
-                { speaker: "A", eng: "The first meeting is on Monday, the fourth of September.", jpn: "最初の会議は9月4日の月曜日です。" },
-                { speaker: "B", eng: "Okay. And what about the project deadline?", jpn: "わかりました。プロジェクトの締め切りはどうですか？" },
-                { speaker: "A", eng: "The deadline is on Wednesday the sixth. We must finish by then.", jpn: "締め切りは6日の水曜日です。それまでに終わらせなければなりません。" }
+            "expandedDialogue": [
+                { "speaker": "A", "eng": "Look at the calendar. We have a lot of meetings next week.", "jpn": "カレンダーを見てください。来週は会議がたくさんありますね。" },
+                { "speaker": "B", "eng": "Really? When is the first meeting?", "jpn": "本当ですか？最初の会議はいつですか？" },
+                { "speaker": "A", "eng": "The first meeting is on Monday, the fourth of September.", "jpn": "最初の会議は9月4日の月曜日です。" },
+                { "speaker": "B", "eng": "Okay. And what about the project deadline?", "jpn": "わかりました。プロジェクトの締め切りはどうですか？" },
+                { "speaker": "A", "eng": "The deadline is on Wednesday the sixth. We must finish by then.", "jpn": "締め切りは6日の水曜日です。それまでに終わらせなければなりません。" }
             ],
-            writingTask: {
-                promptEng: "Write three sentences about important dates in your life. Use days of the week and ordinal numbers (first, second, third, etc.).",
-                promptJpn: "あなたの人生における重要な日付について、3つの文を書いてください。曜日と序数（first, second, thirdなど）を使用してください。"
+            "writingTask": {
+                "promptEng": "Write three sentences about important dates in your life. Use days of the week and ordinal numbers (first, second, third, etc.).",
+                "promptJpn": "あなたの人生における重要な日付について、3つの文を書いてください。曜日と序数（first, second, thirdなど）を使用してください。"
             }
         }
     },
-    {
-        id: 13,
-        title: "Lesson 13: How to talk about the weather and seasons",
-        goal: "Ask and answer questions about the weather and describe your favorite seasons. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(天気について質問し答え、好きな季節について描写する。)</span>",
-        vocab: [
-            { eng: "Weather", jpn: "天気", exEng: "The weather is nice.", exJpn: "天気が良いです。" },
-            { eng: "Sunny", jpn: "晴れ", exEng: "It is sunny today.", exJpn: "今日は晴れです。" },
-            { eng: "Rainy", jpn: "雨", exEng: "I don't like rainy days.", exJpn: "私は雨の日が好きではありません。" },
-            { eng: "Cloudy", jpn: "曇り", exEng: "The sky is cloudy.", exJpn: "空が曇っています。" },
-            { eng: "Snowy", jpn: "雪", exEng: "It is a snowy morning.", exJpn: "雪の降る朝です。" },
-            { eng: "Hot", jpn: "暑い", exEng: "Summer is very hot.", exJpn: "夏はとても暑いです。" },
-            { eng: "Cold", jpn: "寒い", exEng: "It is too cold outside.", exJpn: "外は寒すぎます。" },
-            { eng: "Warm", jpn: "暖かい", exEng: "Spring is warm.", exJpn: "春は暖かいです。" },
-            { eng: "Cool", jpn: "涼しい", exEng: "Autumn is cool.", exJpn: "秋は涼しいです。" },
-            { eng: "Season", jpn: "季節", exEng: "What is your favorite season?", exJpn: "好きな季節は何ですか？" },
-            { eng: "Spring", jpn: "春", exEng: "Flowers bloom in spring.", exJpn: "春には花が咲きます。" },
-            { eng: "Summer", jpn: "夏", exEng: "We go to the beach in summer.", exJpn: "私たちは夏にビーチに行きます。" },
-            { eng: "Autumn", jpn: "秋", exEng: "Leaves fall in autumn.", exJpn: "秋には葉が落ちます。" },
-            { eng: "Winter", jpn: "冬", exEng: "I like skiing in winter.", exJpn: "私は冬にスキーをするのが好きです。" }
-        ],
-        dialogue: [
-            { speaker: "A", eng: "<span class='swappable'>How is the weather today?</span>", jpn: "今日は天気はどうですか？" },
-            { speaker: "B", eng: "<i class='grammar-target'>It is</i> sunny and warm.", jpn: "晴れていて暖かいです。" },
-            { speaker: "A", eng: "That is nice. <span class='swappable'>What is your favorite season?</span>", jpn: "それはいいですね。好きな季節は何ですか？" },
-            { speaker: "B", eng: "I like autumn.", jpn: "秋が好きです。" },
-            { speaker: "A", eng: "Why do you like autumn?", jpn: "どうして秋が好きなのですか？" },
-            { speaker: "B", eng: "Because <i class='grammar-target'>it is</i> cool.", jpn: "涼しいからです。" }
-        ],
-        dialogueStructure: [
-            "Ask about the weather <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(天気について尋ねる)</span>",
-            "> Describe the weather <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(天気を描写する)</span>",
-            "React + Ask about favorite season <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 好きな季節を尋ねる)</span>",
-            "> State favorite season <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(好きな季節を伝える)</span>",
-            "Ask for a reason <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(理由を尋ねる)</span>",
-            "> Give reason <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(理由を答える)</span>"
-        ],
-        expressions: [
-            { 
-                category: "1. Asking about the weather (天気の尋ね方)", 
-                options: [
-                    { eng: "How is the weather today?", jpn: "今日は天気はどうですか？" }, 
-                    { eng: "What's the weather like?", jpn: "天気はどんな感じですか？" }, 
-                    { eng: "Is it raining outside?", jpn: "外は雨が降っていますか？" }
-                ] 
-            },
-            { 
-                category: "2. Asking about seasons (季節についての質問)", 
-                options: [
-                    { eng: "What is your favorite season?", jpn: "好きな季節は何ですか？" }, 
-                    { eng: "Which season do you like?", jpn: "どの季節が好きですか？" }, 
-                    { eng: "Do you like winter?", jpn: "冬は好きですか？" }
-                ] 
-            }
-        ],
-        grammar: {
-            point: "'It is' for Weather and Time - 天候や時間を表す 'It is'",
-            explanation: "In English, sentences must have a subject. When talking about the weather, temperature, or time, we use 'It' as a dummy subject. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>（英語の文には必ず「主語」が必要です。「私」や「彼」のような具体的な人がいない場合でも、主語を省くことはできません。そのため、天気（晴れ、雨など）、気温（暑い、寒いなど）、または時間について話す時は、形式的な主語として『It』を文の先頭に置きます。この『It』は「それは」と訳す必要はなく、単に文を成り立たせるための記号のような役割を果たします。常に『It is...』の形で始まります。）</span>",
-            inDialogue: "<strong>Usage in Dialogue:</strong> Notice how 'It' is used: '<u>It is</u> sunny and warm' and 'Because <u>it is</u> cool.' <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：『<u>It is</u> sunny...』や『<u>it is</u> cool』のように『It』がどう使われているかに注目してください。)</span>",
-            examples: [
-                { eng: "It is raining today.", jpn: "今日は雨が降っています。" },
-                { eng: "It is very hot in summer.", jpn: "夏はとても暑いです。" },
-                { eng: "Is it cold outside?", jpn: "外は寒いですか？" }
-            ]
+{
+    "id": 13,
+    "title": "Lesson 13: How to talk about the weather",
+    "goal": "Talk about the weather in different locations over the phone using simple adjectives. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(簡単な形容詞を使って、電話でさまざまな場所の天気について話す。)</span>",
+    "vocab": [
+        { "eng": "Weather", "jpn": "天気", "exEng": "The weather is good.", "exJpn": "天気が良いです。" },
+        { "eng": "Sunny", "jpn": "晴れ / 晴れている", "exEng": "It is sunny today.", "exJpn": "今日は晴れています。" },
+        { "eng": "Rainy", "jpn": "雨 / 雨が降っている", "exEng": "It is a rainy day.", "exJpn": "雨の日です。" },
+        { "eng": "Cloudy", "jpn": "曇り / 曇っている", "exEng": "The sky is cloudy.", "exJpn": "空は曇っています。" },
+        { "eng": "Snowy", "jpn": "雪 / 雪が降っている", "exEng": "It is cold and snowy.", "exJpn": "寒くて雪が降っています。" },
+        { "eng": "Hot", "jpn": "暑い", "exEng": "Summer is very hot.", "exJpn": "夏はとても暑いです。" },
+        { "eng": "Cold", "jpn": "寒い", "exEng": "Winter is cold.", "exJpn": "冬は寒いです。" },
+        { "eng": "Warm", "jpn": "暖かい", "exEng": "Spring is warm.", "exJpn": "春は暖かいです。" },
+        { "eng": "Cool", "jpn": "涼しい", "exEng": "Fall is cool.", "exJpn": "秋は涼しいです。" },
+        { "eng": "Rain", "jpn": "雨が降る / 雨", "exEng": "It will rain all day.", "exJpn": "一日中雨が降る予定です。" },
+        { "eng": "There", "jpn": "そこに / そちらでは", "exEng": "How is the weather there?", "exJpn": "そちらの天気はどうですか？" },
+        { "eng": "Jealous", "jpn": "うらやましい", "exEng": "I am jealous!", "exJpn": "うらやましいです！" },
+        { "eng": "All day", "jpn": "一日中", "exEng": "I work all day.", "exJpn": "私は一日中働きます。" },
+        { "eng": "Today", "jpn": "今日", "exEng": "Today is Monday.", "exJpn": "今日は月曜日です。" }
+    ],
+    "dialogue": [
+        { "speaker": "A", "eng": "Hello! <span class='swappable'>What's the weather like there?</span>", "jpn": "もしもし！そちらの天気はどうですか？" },
+        { "speaker": "B", "eng": "It is <i class='grammar-target'>cold and rainy</i>.", "jpn": "寒くて雨が降っています。" },
+        { "speaker": "A", "eng": "<span class='swappable'>Oh no.</span>", "jpn": "大変ですね。" },
+        { "speaker": "B", "eng": "Yeah, it is going to rain all day. How about you? How's the weather there?</span>", "jpn": "ええ、一日中雨が降る予定です。あなたはどうですか？そちらの天気はどうですか？" },
+        { "speaker": "A", "eng": "It is <i class='grammar-target'>warm and sunny</i>.", "jpn": "暖かくて晴れています。" },
+        { "speaker": "B", "eng": "I'm jealous!", "jpn": "うらやましいです！" }
+    ],
+    "dialogueStructure": [
+        "Greet + Ask about the weather <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(挨拶する ＋ 天気を尋ねる)</span>",
+        "> Describe the weather <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(天気を説明する)</span>",
+        "React to the bad news <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(悪い知らせに反応する)</span>",
+        "> Add detail + Ask about their weather <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(詳細を加える ＋ 相手の場所の天気を尋ねる)</span>",
+        "Describe the weather <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(天気を説明する)</span>",
+        "> React to the good news <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(良い知らせに反応する)</span>"
+    ],
+    "expressions": [
+        { 
+            "category": "1. Asking about the weather (天気を尋ねる)", 
+            "options": [
+                { "eng": "What's the forecast for today?", "jpn": "今日の天気予報はどうなっていますか？" }, 
+                { "eng": "How is the weather there?", "jpn": "そちらの天気はどうですか？" }, 
+                { "eng": "How's it looking out there?", "jpn": "外の天気はどうですか" }
+            ] 
+      
         },
-        grammarPracticeExample: { 
-            prompt: "sunny / today", 
-            target: "It is sunny today." 
-        },
-        grammarPractice: [
-            { prompt: "very cold / outside" },
-            { prompt: "hot / in summer" },
-            { prompt: "cloudy / right now" },
-            { prompt: "warm / in spring" },
-            { prompt: "rainy / today" }
-        ],
-        clickingGames: [
-            { prompt: "今日は天気はどうですか？", target: "How is the weather today?", words: ["How", "is", "the", "weather", "today?"] },
-            { prompt: "今日はとても寒いです。", target: "It is very cold today.", words: ["It", "is", "very", "cold", "today."] },
-            { prompt: "好きな季節は何ですか？", target: "What is your favorite season?", words: ["What", "is", "your", "favorite", "season?"] },
-            { prompt: "春は暖かくて美しいです。", target: "Spring is warm and beautiful.", words: ["Spring", "is", "warm", "and", "beautiful."] },
-            { prompt: "雪が好きだからです。", target: "Because I like the snow.", words: ["Because", "I", "like", "the", "snow."] }
-        ],
-        dropdownGames: [
-            { before: "How", options: ["is", "are", "do"], answer: "is", after: " the weather today?" },
-            { before: "", options: ["It", "This", "That"], answer: "It", after: " is sunny and hot." },
-            { before: "What is", options: ["you", "your", "yours"], answer: "your", after: " favorite season?" },
-            { before: "I like", options: ["autumn", "weather", "cold"], answer: "autumn", after: " because it is cool." },
-            { before: "It is very", options: ["cold", "snow", "rain"], answer: "cold", after: " in winter." }
-        ],
-        roleplay: {
-            a: "You are calling a friend in another country. Ask them about the weather there, and ask what their favorite season is. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(別の国にいる友達に電話をかけています。そちらの天気について尋ね、好きな季節を尋ねてください。)</span>",
-            b: "You are the friend. Describe the weather (make it up!), and state your favorite season. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(友達の役です。天気を描写し（自由に作ってください！）、好きな季節を伝えてください。)</span>"
-        },
-        homework: {
-            vocab: [
-                { eng: "Rain", jpn: "雨（名詞・動詞）", exEng: "The rain is heavy.", exJpn: "雨が激しいです。" },
-                { eng: "Snow", jpn: "雪（名詞・動詞）", exEng: "I like to play in the snow.", exJpn: "雪で遊ぶのが好きです。" },
-                { eng: "Wind", jpn: "風", exEng: "The wind is strong.", exJpn: "風が強いです。" },
-                { eng: "Storm", jpn: "嵐", exEng: "A storm is coming.", exJpn: "嵐が来ています。" },
-                { eng: "Cloud", jpn: "雲", exEng: "Look at that big cloud.", exJpn: "あの大きな雲を見てください。" },
-                { eng: "Sky", jpn: "空", exEng: "The sky is clear.", exJpn: "空が澄んでいます。" },
-                { eng: "Sun", jpn: "太陽", exEng: "The sun is shining.", exJpn: "太陽が輝いています。" },
-                { eng: "Umbrella", jpn: "傘", exEng: "I need my umbrella.", exJpn: "傘が必要です。" },
-                { eng: "Dry", jpn: "乾燥した", exEng: "The weather is dry.", exJpn: "天気が乾燥しています。" },
-                { eng: "Wet", jpn: "濡れた / 湿った", exEng: "My shoes are wet.", exJpn: "靴が濡れています。" },
-                { eng: "Temperature", jpn: "気温 / 温度", exEng: "The temperature is high.", exJpn: "気温が高いです。" },
-                { eng: "High", jpn: "高い", exEng: "A high mountain.", exJpn: "高い山。" },
-                { eng: "Low", jpn: "低い", exEng: "The temperature is low.", exJpn: "気温が低いです。" },
-                { eng: "Outside", jpn: "外で / 外", exEng: "It is raining outside.", exJpn: "外は雨が降っています。" }
-            ],
-            reading1: {
-                title: "Task 2: Reading (Weather Report)",
-                instruction: "Read the daily weather report.",
-                eng: "<strong>Today's Weather in Tokyo</strong><br><br>Good morning! Today's weather in Tokyo is sunny and warm. The sky is blue and there are no clouds. The high temperature is 25 degrees. It is a beautiful day for a walk in the park. Tomorrow, the weather will change. It will be cloudy and cool in the morning. Please take an umbrella on Friday because it will rain. Have a great day!",
-                jpn: "<strong>今日の東京の天気</strong><br><br>おはようございます！今日の東京の天気は晴れで暖かいです。空は青く、雲はありません。最高気温は25度です。公園を散歩するのに美しい日です。明日は天気が変わります。午前中は曇りで涼しくなるでしょう。金曜日は雨が降るので傘を持って行ってください。素晴らしい一日を！"
-            },
-            expandedDialogue: [
-                { speaker: "A", eng: "Hi Mark. How is the weather in London today?", jpn: "こんにちはマーク。今日のロンドンの天気はどう？" },
-                { speaker: "B", eng: "It is raining and very cold. I don't like it.", jpn: "雨が降っていてとても寒いよ。好きじゃないな。" },
-                { speaker: "A", eng: "Oh no. Do you have an umbrella?", jpn: "あらら。傘は持ってる？" },
-                { speaker: "B", eng: "Yes, I do. How is the weather in Sydney?", jpn: "うん、持ってるよ。シドニーの天気はどう？" },
-                { speaker: "A", eng: "It is sunny and hot. I am going to the beach this afternoon.", jpn: "晴れていて暑いわ。今日の午後はビーチに行く予定よ。" }
-            ],
-            writingTask: {
-                promptEng: "Write a short paragraph about the weather and seasons. Describe the weather today in your city, state your favorite season, and explain why you like it.",
-                promptJpn: "天気と季節についての短い文章を書いてください。あなたの住んでいる都市の今日の天気を描写し、好きな季節を述べ、なぜそれが好きなのか説明してください。"
-            }
+        { 
+            "category": "2. Reacting to bad news(悪いニュースへの対応)", 
+            "options": [
+                { "eng": "That's too bad.", "jpn": "それは残念ですね。" }, 
+                { "eng": "That sucks.", "jpn": "それは最悪ですね。" }, 
+                { "eng": "That doesn't sound fun.", "jpn": "それは憂鬱ですね。" }
+            ] 
         }
+    ],
+    "grammar": {
+        "point": "Asking and answering about the weather - 天気についての質問と答え方",
+        "explanation": "When we ask about the weather, we usually say <strong>\"What is the weather like?\"</strong> or <strong>\"How is the weather?\"</strong> To answer, we always use the pronoun <strong>\"It\"</strong> as the subject (It is sunny, It is cold). We do not say \"The weather is sunny\" in everyday conversation.<br>• <strong>Question:</strong> What's the weather like? / How's the weather?<br>• <strong>Answer:</strong> It is + [adjective]. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>（天気について尋ねる時は「What is the weather like?」または「How is the weather?」と言います。答える時は、必ず主語に「It」を使います（例：It is sunny. / It is cold.）。日常会話では「The weather is sunny.」と言うよりも「It is...」と言うのが自然です。形容詞（hot, cold, sunny, rainy など）を組み合わせて表現しましょう。）</span>",
+        "inDialogue": "<strong>Usage in Dialogue:</strong> Notice how speaker A asks '<u>What's the weather like</u> there?' and B answers with '<u>It is</u> cold and rainy.' <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：Aが『<u>What's the weather like</u> there?』と尋ね、Bが『<u>It is</u> cold and rainy.』と答えている点に注目してください。)</span>",
+        "examples": [
+            { "eng": "How is the weather today?", "jpn": "今日の天気はどうですか？" },
+            { "eng": "It is very hot and sunny.", "jpn": "とても暑くて晴れています。" },
+            { "eng": "It is cloudy in London.", "jpn": "ロンドンは曇っています。" }
+        ]
     },
+    "grammarPracticeExample": { 
+        "prompt": "Snowy", 
+        "target": "It's snowy." 
+    },
+    "grammarPractice": [
+        { "prompt": "Windy" },
+        { "prompt": "Warm and sunny" },
+        { "prompt": "Going to rain" },
+        { "prompt": "A little cloudy" },
+        { "prompt": "Rainy" }
+    ],
+    "clickingGames": [
+        { "prompt": "そちらの天気はどうですか？", "target": "What is the weather like there?", "words": ["What", "is", "the", "weather", "like", "there?"] },
+        { "prompt": "寒くて雨が降っています。", "target": "It is cold and rainy.", "words": ["It", "is", "cold", "and", "rainy."] },
+        { "prompt": "一日中雨が降る予定です。", "target": "It is going to rain all day.", "words": ["It", "is", "going", "to", "rain", "all", "day."] },
+        { "prompt": "暖かくて晴れています。", "target": "It is warm and sunny.", "words": ["It", "is", "warm", "and", "sunny."] },
+        { "prompt": "うらやましいです！", "target": "I am jealous!", "words": ["I", "am", "jealous!"] }
+    ],
+    "dropdownGames": [
+        { "before": "What is the weather", "options": ["like", "how", "love"], "answer": "like", "after": " today?" },
+        { "before": "", "options": ["It", "He", "That"], "answer": "It", "after": " is very hot and sunny." },
+        { "before": "How", "options": ["is", "are", "do"], "answer": "is", "after": " the weather there?" },
+        { "before": "It is going to", "options": ["rain", "rainy", "raining"], "answer": "rain", "after": " all day." },
+        { "before": "I am so", "options": ["jealous", "weather", "sunny"], "answer": "jealous", "after": " of your warm weather!" }
+    ],
+    "roleplay": {
+        "a": "You are on the phone with your partner. Ask them what the weather is like in their city. When they tell you it is bad, react to the news. Tell them about your weather. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはパートナーと電話をしています。パートナーの住んでいる街の天気を尋ねてください。天気が悪いと聞いたら、反応を示してください。自分の場所の天気も伝えてください。)</span>",
+        "b": "You are on the phone. Tell your partner it is cold and rainy in your city, and it will rain all day. Ask them about their weather. React to their good news! <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは電話をしています。自分の街は寒くて雨が降っており、一日中雨だと伝えてください。相手の天気を尋ね、相手の良い知らせに反応してください！)</span>"
+    },
+    "homework": {
+        "vocab": [
+  { "eng": "Spring", "jpn": "春", "exEng": "Spring is beautiful.", "exJpn": "春は美しいです。" },
+  { "eng": "Summer", "jpn": "夏", "exEng": "Summer is my favorite season.", "exJpn": "夏は私の好きな季節です。" },
+  { "eng": "Fall / Autumn", "jpn": "秋", "exEng": "Leaves change color in fall.", "exJpn": "秋には葉の色が変わります。" },
+  { "eng": "Winter", "jpn": "冬", "exEng": "I play in the snow in winter.", "exJpn": "冬は雪で遊びます。" },
+  { "eng": "Season", "jpn": "季節", "exEng": "What is your favorite season?", "exJpn": "好きな季節は何ですか？" },
+  { "eng": "Umbrella", "jpn": "傘", "exEng": "I need an umbrella.", "exJpn": "傘が必要です。" },
+  { "eng": "Coat", "jpn": "コート", "exEng": "Put on a heavy coat.", "exJpn": "厚手のコートを着てください。" },
+  { "eng": "Beach", "jpn": "ビーチ / 海辺", "exEng": "Let's go to the beach.", "exJpn": "ビーチに行きましょう。" },
+  { "eng": "Windy", "jpn": "風が強い", "exEng": "It is very windy outside.", "exJpn": "外はとても風が強いです。" },
+  { "eng": "Storm", "jpn": "嵐", "exEng": "A big storm is coming.", "exJpn": "大きな嵐が来ています。" },
+  { "eng": "Foggy", "jpn": "霧が濃い / 霧がかかった", "exEng": "Be careful, the road is foggy.", "exJpn": "道に霧がかかっているので気をつけてください。" },
+  { "eng": "Humid", "jpn": "蒸し暑い / 湿度が高い", "exEng": "August is very humid here.", "exJpn": "ここの8月はとても蒸し暑いです。" },
+  { "eng": "Temperature", "jpn": "気温", "exEng": "The temperature is dropping.", "exJpn": "気温が下がっています。" },
+  { "eng": "Rainbow", "jpn": "虹", "exEng": "I saw a beautiful rainbow after the shower.", "exJpn": "にわか雨の後に美しい虹を見ました。" }
+],
+        "reading1": {
+            "title": "Task 2: Reading (A Postcard from Hawaii)",
+            "instruction": "Read the message about the weather on a vacation.",
+            "eng": "<strong>A Message from Hawaii</strong><br><br>Hi Sarah! How are you? How is the weather in London today? Is it cold and rainy? I am on vacation in Hawaii right now. The weather here is amazing. It is very hot and sunny every day. I go to the beach in the morning and swim in the ocean. I do not need a coat or an umbrella! I hope you are having a good week. See you soon!",
+            "jpn": "<strong>ハワイからのメッセージ</strong><br><br>サラ、こんにちは！元気ですか？今日のロンドンの天気はどうですか？寒くて雨が降っていますか？私は今、ハワイで休暇を過ごしています。ここの天気は素晴らしいです。毎日とても暑くて晴れています。朝はビーチに行き、海で泳ぎます。コートも傘も必要ありません！良い一週間を過ごしていることを願っています。またすぐにお会いしましょう！"
+        },
+        "expandedDialogue": [
+            { "speaker": "A", "eng": "Hi! Are you ready for our trip tomorrow?", "jpn": "こんにちは！明日の旅行の準備はできましたか？" },
+            { "speaker": "B", "eng": "Yes, I am. But I looked at the weather.", "jpn": "はい、できました。でも、天気予報を見ました。" },
+            { "speaker": "A", "eng": "Oh? What's the weather like there tomorrow?", "jpn": "あら？明日のそこの天気はどうですか？" },
+            { "speaker": "B", "eng": "It is going to be very cold and snowy.", "jpn": "とても寒くて雪が降る予定です。" },
+            { "speaker": "A", "eng": "Oh no! Make sure to bring a warm coat.", "jpn": "大変！必ず暖かいコートを持ってきてくださいね。" }
+        ],
+        "writingTask": {
+            "promptEng": "Write three sentences describing the weather in your city today. Is it hot, cold, sunny, or rainy? What do you wear in this weather?",
+            "promptJpn": "今日のあなたの街の天気を説明する文を3つ書いてください。暑いですか、寒いですか、晴れていますか、それとも雨ですか？この天気では何を着ますか？"
+        }
+    }
+},
     {
         id: 14,
         title: "Lesson 14: How to talk about your routine",
