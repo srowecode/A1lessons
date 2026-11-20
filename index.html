@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A1 English Mastery</title>
+    <title>A1 IT English Mastery</title>
     <style>
         :root {
             --primary: #4f46e5;       
@@ -18,6 +18,9 @@
             --error: #ef4444;         
         }
 
+        /* --- GLOBAL & RESET --- */
+        *, *::before, *::after { box-sizing: border-box; }
+        html, body { overflow-x: hidden; scroll-behavior: smooth; }
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
@@ -31,6 +34,7 @@
         body.hide-jpn .jpn-text {
             display: none !important;
         }
+
         .toggle-jpn-btn {
             background: var(--accent);
             color: white;
@@ -47,69 +51,83 @@
             background: #d97706;
         }
 
+        /* --- SPLASH BANNER (MAIN SCREEN) --- */
+        .banner-container {
+            width: 100%;
+            background-color: #1e1b4b;
+            border-bottom: 5px solid #2b2e4a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .hero-banner {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* --- LESSON HERO HEADER (DYNAMIC PER LESSON) --- */
         .hero {
             position: relative;
-            width: 100%;
-            min-height: 400px;
-            background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+            padding: 80px 20px;
+            text-align: center;
+            border-bottom: 5px solid var(--primary);
+            background-color: var(--border);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: background-image 0.5s ease-in-out;
+            min-height: 260px;
             display: flex;
             flex-direction: column;
-            align-items: center;
             justify-content: center;
-            overflow: hidden;
-            padding: 40px 20px;
-            border-bottom: 4px solid var(--primary);
         }
-
-        .hero-image-container {
-            position: relative;
-            z-index: 10;
-            width: 250px; 
-            height: 250px;
-            margin-bottom: 25px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .hero-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 50%; 
-            border: 6px solid white;
-            box-shadow: 0 20px 40px -10px rgba(79, 70, 229, 0.3);
-            position: relative;
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(247, 250, 252, 0.82);
+            z-index: 1;
         }
 
         .hero-text-wrapper {
+            position: relative;
             display: flex;
             flex-direction: column;
             align-items: center;
             z-index: 10;
             text-align: center;
+            width: 100%;
         }
 
         .hero-title {
-            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-size: clamp(2rem, 6vw, 4.5rem);
             font-weight: 900;
             letter-spacing: 2px;
             margin: 0;
             color: var(--primary);
+            word-wrap: break-word;
+            text-shadow: 0 2px 10px rgba(255, 255, 255, 0.9);
         }
 
         .hero-subtitle {
-            font-size: clamp(1rem, 2vw, 1.2rem);
+            font-size: clamp(0.95rem, 2vw, 1.2rem);
             font-weight: 700;
             letter-spacing: 1px;
-            margin: 10px 0 20px;
-            color: var(--text-light);
+            margin: 10px 0 0;
+            color: var(--text-dark);
             text-transform: uppercase;
+            text-shadow: 0 1px 6px rgba(255, 255, 255, 0.9);
         }
 
         .container {
             max-width: 1350px; 
-            margin: -30px auto 40px; 
+            margin: 25px auto 40px; 
             padding: 0 15px;
             position: relative;
             z-index: 20;
@@ -177,6 +195,60 @@
             margin-bottom: 25px;
             box-shadow: 0 10px 25px rgba(0,0,0,0.05);
             border: 1px solid var(--border);
+        }
+
+        /* --- LANDING PAGE FEATURES --- */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 20px;
+            margin-top: 25px;
+        }
+        .feature-card {
+            background: var(--bg-color);
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.03);
+            border: 1px solid var(--border);
+            border-top: 4px solid var(--accent);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 18px rgba(0,0,0,0.07);
+        }
+        .feature-card h3 {
+            margin-top: 0;
+            padding-left: 0;
+            border-left: none;
+            color: var(--primary);
+            font-size: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Full-Screen Image after Grammar Practice */
+        .grammar-practice-image-container {
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            margin-bottom: 25px;
+            background: #0f172a;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+            overflow: hidden;
+        }
+
+        .grammar-practice-image {
+            width: 100%;
+            height: 100vh;
+            max-height: 100vh;
+            object-fit: cover;
+            display: block;
         }
 
         .transactional-3col {
@@ -315,28 +387,45 @@
         .homework-box { background: #f0f9ff; border-left: 6px solid var(--primary-light); }
         .roleplay-box p, .homework-box p { margin-top: 0; }
 
+        .lesson-bottom-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid var(--border);
+            flex-wrap: wrap;
+        }
+
         @media (max-width: 1024px) {
             .transactional-3col { grid-template-columns: 1fr; }
             .transactional-3col .section-card { margin-bottom: 25px; }
         }
 
         @media (max-width: 768px) {
-            .hero { min-height: 350px; }
+            .hero { min-height: auto; padding: 50px 15px; }
+            .hero-title { font-size: 2.2rem; }
+            .hero-subtitle { font-size: 1rem; }
             .class-selector { flex-direction: column; align-items: stretch; }
             .controls-group { flex-direction: column; width: 100%; }
             .export-btn, .toggle-jpn-btn { width: 100%; margin: 0; }
             button.action-btn { width: 100%; margin-right: 0; margin-bottom: 8px; }
+            .grammar-practice-image { height: auto; max-height: 80vh; }
+            .lesson-bottom-nav { flex-direction: column; }
+            .lesson-bottom-nav button { width: 100%; }
         }
     </style>
 </head>
 <body>
 
-    <header class="hero">
-        <div class="hero-image-container">
-            <img src="main.jpg" alt="A1 English Learner" class="hero-image" onerror="this.style.display='none';">
-        </div>
+    <div class="banner-container" id="splash-banner">
+        <img src="image_0.jpg" alt="A1 IT English Splash Banner" class="hero-banner">
+    </div>
+
+    <header class="hero" id="main-hero" style="display: none;">
         <div class="hero-text-wrapper">
-            <h1 class="hero-title">A1 ENGLISH</h1>
+            <h1 class="hero-title">A1 IT ENGLISH</h1>
             <p class="hero-subtitle">Goal-Based Transactional Lessons</p>
         </div>
     </header>
@@ -344,13 +433,60 @@
     <div class="container">
         <div class="class-selector">
             <label for="lessonSelect">Select Lesson:</label>
-            <select id="lessonSelect" onchange="loadLesson()"></select>
+            <select id="lessonSelect" onchange="navigateLesson(this.value)"></select>
             <div class="controls-group">
                 <button class="toggle-jpn-btn" onclick="toggleJapanese()">👁️ Toggle Japanese</button>
                 <button class="export-btn" onclick="exportLessonToAnki()">📥 Download Anki Deck</button>
             </div>
         </div>
-        <div id="lessonContent"></div>
+
+        <!-- COURSE OVERVIEW / LANDING PAGE -->
+        <div id="landingPage" class="section-card">
+            <h2 style="font-size: 2.2rem; margin-bottom: 10px;">A1 IT English Mastery: Beginner Foundations</h2>
+            <div class="goal-overview" style="margin-bottom: 30px;">
+                <p><strong>Course Focus:</strong> Practical Speaking for Japan's IT Industry | CEFR A1 Level | Goal-Based Roleplays</p>
+                <p class="jpn-text" style="font-weight: normal; margin-top: 8px;"><strong>コースの焦点：</strong> 日本のIT業界向け実践スピーキング | CEFR A1レベル | 目標達成型ロールプレイ</p>
+            </div>
+
+            <p style="font-size: 1.1rem;">This course is designed for beginner English learners to build confidence in real-world everyday and workplace interactions. Every lesson focuses on a clear, practical goal—combining essential vocabulary, model dialogues, grammar building blocks, and interactive homework.</p>
+            <p class="jpn-text" style="color: var(--text-light); margin-bottom: 35px;">このコースは、英語初心者が日常や職場の実際のやり取りに自信を持てるように設計されています。すべてのレッスンが明確で実用的な目標に焦点を当てており、必須の語彙、モデル会話、文法の基礎、インタラクティブな宿題を組み合わせています。</p>
+
+            <h2 style="font-size: 1.8rem; margin-top: 20px; border-bottom: none;">Course Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>🎯 Goal-Based Learning</h3>
+                    <p style="font-size: 1rem; margin-bottom: 8px;">Each lesson targets a specific real-life task so you can immediately use what you learn.</p>
+                    <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">各レッスンは特定の日常タスクを目標としており、学んだことをすぐに実践できます。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🗣️ Practical Role-Plays</h3>
+                    <p style="font-size: 1rem; margin-bottom: 8px;">Practice realistic conversations with swappable speaking functions and clear dialogue structures.</p>
+                    <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">入れ替え可能なスピーキング表現と明確な会話構成で、実践的な会話を練習します。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🧩 Interactive Grammar</h3>
+                    <p style="font-size: 1rem; margin-bottom: 8px;">Reinforce key beginner grammar patterns with sentence-builder and fill-in-the-blank exercises.</p>
+                    <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">文の組み立てや穴埋め問題などのインタラクティブな練習で、基礎文法を定着させます。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>👁️ Full Japanese Support</h3>
+                    <p style="font-size: 1rem; margin-bottom: 8px;">Toggle Japanese translations on or off at any time to challenge your comprehension.</p>
+                    <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">いつでも日本語訳の表示・非表示を切り替えられ、理解度を試すことができます。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔊 Built-in Audio</h3>
+                    <p style="font-size: 1rem; margin-bottom: 8px;">Listen to native pronunciation for every vocabulary word, dialogue line, and example sentence.</p>
+                    <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">すべての単語、会話文、例文で英語の音声を聞いて発音を確認できます。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📥 Anki Integration</h3>
+                    <p style="font-size: 1rem; margin-bottom: 8px;">Export any lesson's vocabulary list directly into an Anki-ready flashcard deck with one click.</p>
+                    <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">ワンクリックで各レッスンの単語リストをAnki用フラッシュカードとしてダウンロードできます。</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="lessonContent" style="display: none;"></div>
     </div>
 
     <!-- LINK TO EXTERNAL CURRICULUM FILE -->
@@ -382,10 +518,16 @@
 
         function toggleJapanese() {
             document.body.classList.toggle('hide-jpn');
+            localStorage.setItem('a1_hide_jpn', document.body.classList.contains('hide-jpn'));
         }
 
         function exportLessonToAnki() {
-            const index = parseInt(document.getElementById("lessonSelect").value);
+            const val = document.getElementById("lessonSelect").value;
+            if (val === "landing") {
+                alert("Please select a specific lesson from the dropdown to export its vocabulary.");
+                return;
+            }
+            const index = parseInt(val);
             const lesson = a1Curriculum[index];
             let tsvContent = "";
 
@@ -413,12 +555,58 @@
             link.click();
         }
 
-        // --- APP LOGIC ---
+        // --- HASH ROUTING & NAVIGATION ---
+        window.addEventListener('hashchange', () => {
+            handleHashNavigation();
+        });
+
+        function handleHashNavigation() {
+            const hash = window.location.hash.replace('#', '');
+            const selectEl = document.getElementById("lessonSelect");
+            if (!selectEl) return;
+
+            if (hash.startsWith("lesson-")) {
+                const rawId = hash.replace("lesson-", "");
+                const lessonIndex = a1Curriculum.findIndex((l, idx) => {
+                    const idStr = l && l.id !== undefined ? String(l.id) : String(idx + 1);
+                    return idStr === rawId;
+                });
+                if (lessonIndex !== -1) {
+                    selectEl.value = lessonIndex;
+                    loadLesson(true);
+                    return;
+                }
+            }
+            selectEl.value = "landing";
+            loadLesson(true);
+        }
+
+        function navigateLesson(value) {
+            const selectEl = document.getElementById("lessonSelect");
+            selectEl.value = value;
+
+            if (value === "landing") {
+                if (window.location.hash) {
+                    history.pushState("", document.title, window.location.pathname + window.location.search);
+                }
+            } else {
+                const idx = parseInt(value);
+                const lesson = a1Curriculum[idx];
+                const lessonId = lesson && lesson.id !== undefined ? lesson.id : (idx + 1);
+                window.location.hash = "lesson-" + lessonId;
+            }
+            loadLesson(true);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // --- APP INITIALIZATION ---
         window.onload = function() {
             try {
                 initApp();
             } catch (err) {
-                document.getElementById("lessonContent").innerHTML = `
+                const content = document.getElementById("lessonContent");
+                content.style.display = "block";
+                content.innerHTML = `
                     <div style="padding: 20px; background: #fee2e2; border: 1px solid #ef4444; border-radius: 8px; color: #b91c1c;">
                         <h3>Critical Initialization Error</h3>
                         <p>${err.message}</p>
@@ -427,8 +615,15 @@
         };
 
         function initApp() {
+            if (localStorage.getItem('a1_hide_jpn') === 'true') {
+                document.body.classList.add('hide-jpn');
+            }
+
             if (typeof a1Curriculum === 'undefined' || !Array.isArray(a1Curriculum)) {
-                document.getElementById("lessonContent").innerHTML = `
+                document.getElementById("landingPage").style.display = "none";
+                const content = document.getElementById("lessonContent");
+                content.style.display = "block";
+                content.innerHTML = `
                     <div style='padding: 20px; background: #fee2e2; border: 1px solid #ef4444; border-radius: 8px; color: #b91c1c;'>
                         <h3>Error Loading Curriculum</h3>
                         <p>The curriculum data could not be loaded. Please ensure <strong>A1curriculum.js</strong> is properly formatted without syntax errors and exists in the same folder.</p>
@@ -438,20 +633,81 @@
 
             const selectEl = document.getElementById("lessonSelect");
             if (!selectEl) return;
-            
+
+            selectEl.innerHTML = "";
+
+            // Add Course Overview option
+            const landingOption = document.createElement("option");
+            landingOption.value = "landing";
+            landingOption.textContent = "🏠 Course Overview";
+            selectEl.appendChild(landingOption);
+
             a1Curriculum.forEach((lesson, index) => {
                 if (!lesson) return;
+                const lessonId = lesson.id !== undefined ? lesson.id : (index + 1);
+                const lessonTitle = lesson.title || `Lesson ${lessonId}`;
+
                 const option = document.createElement("option");
                 option.value = index;
-                option.textContent = lesson.title || `Lesson ${index + 1}`;
+                option.textContent = lessonTitle;
                 selectEl.appendChild(option);
             });
-            loadLesson();
+
+            if (window.location.hash) {
+                handleHashNavigation();
+            } else {
+                selectEl.value = "landing";
+                loadLesson(true);
+            }
         }
 
-        function loadLesson() {
-            const index = parseInt(document.getElementById("lessonSelect").value);
-            renderLesson(a1Curriculum[index], index);
+        function loadLesson(internalCall = false) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+            }
+
+            const val = document.getElementById("lessonSelect").value;
+            const landingPage = document.getElementById("landingPage");
+            const lessonContent = document.getElementById("lessonContent");
+            const splashBanner = document.getElementById("splash-banner");
+            const heroEl = document.getElementById("main-hero");
+
+            if (!internalCall) {
+                if (val === "landing") {
+                    history.pushState("", document.title, window.location.pathname + window.location.search);
+                } else {
+                    const idx = parseInt(val);
+                    const lesson = a1Curriculum[idx];
+                    const lessonId = lesson && lesson.id !== undefined ? lesson.id : (idx + 1);
+                    window.location.hash = "lesson-" + lessonId;
+                }
+            }
+
+            if (val === "landing") {
+                landingPage.style.display = "block";
+                lessonContent.style.display = "none";
+                if (splashBanner) splashBanner.style.display = "flex";
+                if (heroEl) {
+                    heroEl.style.display = "none";
+                    heroEl.style.backgroundImage = "none";
+                }
+                return;
+            }
+
+            landingPage.style.display = "none";
+            lessonContent.style.display = "block";
+            if (splashBanner) splashBanner.style.display = "none";
+
+            const index = parseInt(val);
+            const lesson = a1Curriculum[index];
+            const lessonId = lesson && lesson.id !== undefined ? lesson.id : (index + 1);
+
+            if (heroEl) {
+                heroEl.style.display = "flex";
+                heroEl.style.backgroundImage = "url('header-" + lessonId + ".jpg')";
+            }
+
+            renderLesson(lesson, index);
         }
 
         function renderGrammarHints(lesson) {
@@ -467,7 +723,7 @@
             `;
         }
 
-        function renderDetailedGrammar(lesson) {
+        function renderDetailedGrammar(lesson, lessonIndex) {
             if (!lesson.grammar) return "";
             
             let examplesHtml = '';
@@ -513,6 +769,13 @@
                 `;
             }
 
+            const lessonNumber = lesson.id !== undefined ? lesson.id : (lessonIndex + 1);
+            const fullScreenImageHtml = `
+                <div class="grammar-practice-image-container">
+                    <img src="grammarlesson${lessonNumber}.jpg" alt="Grammar Practice Visual - Lesson ${lessonNumber}" class="grammar-practice-image" onerror="this.parentElement.style.display='none';">
+                </div>
+            `;
+
             return `
                 <div class="section-card" style="margin-bottom: 25px;">
                     <h3>Grammar Explanations</h3>
@@ -527,6 +790,7 @@
                     </div>
                     ${grammarPracticeHtml}
                 </div>
+                ${fullScreenImageHtml}
             `;
         }
 
@@ -694,8 +958,8 @@
                             </div>
                          </div>`;
 
-                // 6. Detailed Grammar Explanations & Practice
-                html += renderDetailedGrammar(lesson);
+                // 6. Detailed Grammar Explanations & Practice (+ Full-Screen Image)
+                html += renderDetailedGrammar(lesson, lessonIndex);
 
                 // 7. Role-Play
                 if (lesson.roleplay) {
@@ -775,7 +1039,7 @@
                     // Task 5: Clicking Games
                     if (lesson.clickingGames && Array.isArray(lesson.clickingGames)) {
                         let clickGamesHtml = lesson.clickingGames.map((game, i) => {
-                            let wordBank = game.words.sort(() => Math.random() - 0.5).map(word => 
+                            let wordBank = game.words.slice().sort(() => Math.random() - 0.5).map(word => 
                                 `<button class="word-btn" onclick="moveWord(this, 'hw-drop-${lesson.id}-${i}', 'hw-bank-${lesson.id}-${i}')">${word}</button>`
                             ).join('');
                             
@@ -827,6 +1091,26 @@
 
                     html += `</div>`; 
                 }
+
+                // Bottom Navigation (Previous Lesson / Course Overview / Next Lesson)
+                let navHtml = '<div class="lesson-bottom-nav">';
+                if (lessonIndex > 0) {
+                    navHtml += `<button class="action-btn" style="background: var(--text-light); margin: 0;" onclick="navigateLesson(${lessonIndex - 1})">← Previous Lesson</button>`;
+                } else {
+                    navHtml += `<button class="action-btn" style="background: var(--text-light); margin: 0;" onclick="navigateLesson('landing')">🏠 Course Overview</button>`;
+                }
+
+                if (lessonIndex > 0) {
+                    navHtml += `<button class="action-btn" style="background: var(--accent); margin: 0;" onclick="navigateLesson('landing')">🏠 Course Overview</button>`;
+                }
+
+                if (lessonIndex < a1Curriculum.length - 1) {
+                    navHtml += `<button class="action-btn" style="margin: 0;" onclick="navigateLesson(${lessonIndex + 1})">Next Lesson →</button>`;
+                } else {
+                    navHtml += `<button class="action-btn" style="background: var(--success); margin: 0;" onclick="navigateLesson('landing')">Finish Course (Overview) ✓</button>`;
+                }
+                navHtml += '</div>';
+                html += navHtml;
 
                 container.innerHTML = html;
             } catch (err) {
