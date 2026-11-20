@@ -1166,7 +1166,7 @@ const a1Curriculum = [
                 promptJpn: "あなたやあなたの家族が持っているものについて、3つの文を書いてください。『have』と『has』を使用してください。"
             }
         }
-    },,{
+    },{
         id: 10,
         title: "Lesson 10: How to talk about your family",
         goal: "Ask and answer questions about family members and describe their personality and appearance. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(家族のメンバーについて質問し答え、性格や容姿を描写する。)</span>",
@@ -1683,7 +1683,7 @@ const a1Curriculum = [
         }
     }
 },
-    {
+{
         id: 14,
         title: "Lesson 14: How to talk about your routine",
         goal: "Talk about your daily and weekly schedules using prepositions of time (in, on, at) and 'every'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(時間を表す前置詞（in, on, at）や『every』を使って、毎日・毎週のスケジュールについて話す。)</span>",
@@ -1704,35 +1704,35 @@ const a1Curriculum = [
             { eng: "Early", jpn: "早く", exEng: "I woke up early.", exJpn: "私は早く起きました。" }
         ],
         dialogue: [
-            { speaker: "A", eng: "<span class='swappable'>What time do you wake up in the morning?</span>", jpn: "朝は何時に起きますか？" },
-            { speaker: "B", eng: "I wake up <i class='grammar-target'>at 6:30 AM on weekdays</i>.", jpn: "平日は午前6時30分に起きます。" },
-            { speaker: "A", eng: "That is early! <span class='swappable'>Do you work on the weekend?</span>", jpn: "早いですね！週末は働きますか？" },
-            { speaker: "B", eng: "No, I don't work <i class='grammar-target'>on Saturdays</i> and Sundays.", jpn: "いいえ、土曜日と日曜日は働きません。" },
-            { speaker: "A", eng: "That is good. I usually relax <i class='grammar-target'>in the evening</i>.", jpn: "それはいいですね。私はたいてい夕方にリラックスします。" },
-            { speaker: "B", eng: "Me too. I read a book <i class='grammar-target'>every night</i> before bed.", jpn: "私もです。毎晩寝る前に本を読みます。" }
+            { speaker: "A", eng: "You always look so full of energy! <span class='swappable'>What do you do <i class='grammar-target'>in the morning?</i></span>", jpn: "いつもすごく元気そうですね！朝は何をしていますか？" },
+            { speaker: "B", eng: "Thanks! I wake up <i class='grammar-target'>at 6:00 AM</i> and go for a run every morning</i>.", jpn: "ありがとうございます！午前6時に起きて、毎朝ランニングに行きます。" },
+            { speaker: "A", eng: "Wow, that's great. What do you usually do <i class='grammar-target'>at night?</i></span>", jpn: "わあ、すごいですね。夜はたいてい何をしていますか？" },
+            { speaker: "B", eng: "I usually read a book and relax <i class='grammar-target'>at night</i> before I go to bed.", jpn: "寝る前は、たいてい夜に本を読んでリラックスします。" },
+            { speaker: "A", eng: "Nice. How about your days off? <span class='swappable'>What do you do <i class='grammar-target'>on the weekend?</i></span>", jpn: "いいですね。お休みの日はどうですか？週末は何をしていますか？" },
+            { speaker: "B", eng: "I meet my friends <i class='grammar-target'>on Saturdays</i>, and I just stay home <i class='grammar-target'>on Sundays</i>.", jpn: "土曜日は友達と会って、日曜日はただ家にいます。" }
         ],
         dialogueStructure: [
-            "Ask about daily times <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(日々の時間について尋ねる)</span>",
-            "> State time using 'at' and 'on' <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(『at』や『on』を使って時間を答える)</span>",
-            "React + Ask about weekend routines <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 週末の習慣について尋ねる)</span>",
-            "> Answer using 'on' <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(『on』を使って答える)</span>",
-            "React + State routine using 'in' <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 『in』を使って習慣を伝える)</span>",
-            "> Agree + State routine using 'every' <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(同意する ＋ 『every』を使って習慣を伝える)</span>"
+            "Compliment + Ask about morning routine using 'in' <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(褒める ＋ 『in』を使って朝の習慣を尋ねる)</span>",
+            "> Answer using 'at' and 'every' <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(『at』や『every』を使って答える)</span>",
+            "React + Ask about night routine using 'at' <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 『at』を使って夜の習慣を尋ねる)</span>",
+            "> Answer using 'at' <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(『at』を使って答える)</span>",
+            "React + Ask about weekend routine using 'on' <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 『on』を使って週末の習慣を尋ねる)</span>",
+            "> Answer using 'on' <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(『on』を使って答える)</span>"
         ],
         expressions: [
             { 
-                category: "1. Asking about daily times (日常の時間を尋ねる)", 
+                category: "1. Asking about morning routines (朝の習慣を尋ねる)", 
                 options: [
-                    { eng: "What time do you wake up?", jpn: "何時に起きますか？" }, 
-                    { eng: "When do you start work?", jpn: "いつ仕事を始めますか？" }, 
-                    { eng: "What time do you go to bed?", jpn: "何時に寝ますか？" }
+                  { eng: "How do you start your day?", jpn: "一日の始まりに何をしますか？" },
+          { eng: "What is your morning routine?", jpn: "朝のルーティン（日課）は何ですか？" },
+                   { eng: "How do you spend your mornings?", jpn: "朝はどのように過ごしていますか？" },
                 ] 
             },
             { 
                 category: "2. Asking about weekend routines (週末の習慣について尋ねる)", 
                 options: [
-                    { eng: "Do you work on the weekend?", jpn: "週末は働きますか？" }, 
-                    { eng: "What do you do on Sundays?", jpn: "日曜日は何をしますか？" }, 
+                { eng: "What do you do every Sunday?", jpn: "毎週日曜日は何をしていますか？" },
+                  { eng: "How do you relax on Sundays?", jpn: "日曜日はどうやってリラックスしますか？" },
                     { eng: "Are you busy on the weekend?", jpn: "週末は忙しいですか？" }
                 ] 
             }
@@ -1740,7 +1740,7 @@ const a1Curriculum = [
         grammar: {
             point: "Prepositions of Time (in, on, at) - 時間を表す前置詞",
             explanation: "We use different prepositions for different types of time:<br>• <strong>at</strong> + exact time / night (at 7:00, at night)<br>• <strong>on</strong> + days / dates (on Monday, on the weekend)<br>• <strong>in</strong> + parts of the day / months (in the morning, in May)<br><em>*Note: When we use 'every' (every morning, every Sunday), we do NOT use in/on/at.</em> <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>（時間や時期を表す際、英語では３つの前置詞（at, on, in）をスケールの大きさによって使い分けます。<br>・<strong>at</strong>：一番ピンポイントな狭い時間を指します。「時計の時刻（at 7:00）」や、特定の瞬間である「夜（at night）」に使います。<br>・<strong>on</strong>：1日（24時間）単位のスケールに使います。「曜日（on Monday）」や「特定の日にち（on May 5th）」、または「週末（on the weekend）」に使います。<br>・<strong>in</strong>：もっと長い期間のスケールに使います。「月（in May）」や「季節（in summer）」、または1日の中で幅のある時間帯（in the morning / in the afternoon / in the evening）に使います。<br>※「every（毎〜）」を使う時（every morning, every Sundayなど）は、これらの前置詞は一切不要になるので注意しましょう。）</span>",
-            inDialogue: "<strong>Usage in Dialogue:</strong> Notice the different time words: '<u>in the</u> morning', '<u>at</u> 6:30 AM', '<u>on</u> weekdays', and '<u>every</u> night'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：『<u>in the</u> morning』『<u>at</u> 6:30 AM』『<u>on</u> weekdays』『<u>every</u> night』といった異なる時間を表す言葉に注目してください。)</span>",
+            inDialogue: "<strong>Usage in Dialogue:</strong> Notice the different time words: '<u>in the</u> morning', '<u>at</u> 6:00 AM', '<u>every</u> morning', '<u>at</u> night', and '<u>on</u> the weekend'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：『<u>in the</u> morning』『<u>at</u> 6:00 AM』『<u>every</u> morning』『<u>at</u> night』『<u>on</u> the weekend』といった異なる時間を表す言葉に注目してください。)</span>",
             examples: [
                 { eng: "I have a meeting at 2:00 PM.", jpn: "午後2時に会議があります。" },
                 { eng: "She goes to the gym on Wednesdays.", jpn: "彼女は水曜日にジムに行きます。" },
@@ -1759,11 +1759,11 @@ const a1Curriculum = [
             { prompt: "They relax (the evening)" }
         ],
         clickingGames: [
-            { prompt: "朝は何時に起きますか？", target: "What time do you wake up in the morning?", words: ["What", "time", "do", "you", "wake", "up", "in", "the", "morning?"] },
-            { prompt: "平日は午前6時30分に起きます。", target: "I wake up at 6:30 AM on weekdays.", words: ["I", "wake", "up", "at", "6:30", "AM", "on", "weekdays."] },
-            { prompt: "週末は働きますか？", target: "Do you work on the weekend?", words: ["Do", "you", "work", "on", "the", "weekend?"] },
-            { prompt: "私はたいてい夕方にリラックスします。", target: "I usually relax in the evening.", words: ["I", "usually", "relax", "in", "the", "evening."] },
-            { prompt: "私は毎晩寝る前に本を読みます。", target: "I read a book every night before bed.", words: ["I", "read", "a", "book", "every", "night", "before", "bed."] }
+            { prompt: "朝は何をしていますか？", target: "What do you do in the morning?", words: ["What", "do", "you", "do", "in", "the", "morning?"] },
+            { prompt: "毎朝ランニングに行きます。", target: "I go for a run every morning.", words: ["I", "go", "for", "a", "run", "every", "morning."] },
+            { prompt: "夜はたいてい何をしていますか？", target: "What do you usually do at night?", words: ["What", "do", "you", "usually", "do", "at", "night?"] },
+            { prompt: "週末は何をしていますか？", target: "What do you do on the weekend?", words: ["What", "do", "you", "do", "on", "the", "weekend?"] },
+            { prompt: "土曜日は友達と会います。", target: "I meet my friends on Saturdays.", words: ["I", "meet", "my", "friends", "on", "Saturdays."] }
         ],
         dropdownGames: [
             { before: "I wake up", options: ["at", "in", "on"], answer: "at", after: " 7:00 AM." },
@@ -1773,8 +1773,8 @@ const a1Curriculum = [
             { before: "Do you work", options: ["on", "in", "at"], answer: "on", after: " the weekend?" }
         ],
         roleplay: {
-            a: "Ask your partner what time they wake up in the morning, and ask what they do on the weekend. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(パートナーに朝何時に起きるか尋ね、週末には何をするか尋ねてください。)</span>",
-            b: "Answer the questions. Tell them your wake-up time using 'at', and tell them one thing you do on the weekend using 'on' or 'every'. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(質問に答えてください。『at』を使って起きる時間を伝え、『on』や『every』を使って週末にすることを1つ伝えてください。)</span>"
+            a: "Ask your partner what they do in the morning, at night, and on the weekend. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(パートナーに朝、夜、そして週末にそれぞれ何をしているか尋ねてください。)</span>",
+            b: "Answer your partner's questions about your morning, night, and weekend routines using 'in', 'on', 'at', or 'every'. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(『in』『on』『at』『every』を使って、朝・夜・週末の習慣についての質問に答えてください。)</span>"
         },
         homework: {
             vocab: [
@@ -1788,8 +1788,8 @@ const a1Curriculum = [
                 { eng: "Listen to music", jpn: "音楽を聴く", exEng: "I listen to music.", exJpn: "私は音楽を聴きます。" },
                 { eng: "Usually", jpn: "たいてい", exEng: "I usually walk.", exJpn: "私はたいてい歩きます。" },
                 { eng: "Before", jpn: "〜の前に", exEng: "Wash before eating.", exJpn: "食べる前に洗ってください。" },
-		        { eng: "Wash", jpn: "洗う", exEng: "Wash your hands.", exJpn: "手を洗ってください。" },	
-		        { eng: "Dry", jpn: "乾かす", exEng: "Dry the clothes.", exJpn: "服を乾かしてください。" },
+                { eng: "Wash", jpn: "洗う", exEng: "Wash your hands.", exJpn: "手を洗ってください。" },	
+                { eng: "Dry", jpn: "乾かす", exEng: "Dry the clothes.", exJpn: "服を乾かしてください。" },
                 { eng: "After", jpn: "〜の後に", exEng: "Call me after work.", exJpn: "仕事の後に電話してください。" },
                 { eng: "Until", jpn: "〜まで", exEng: "Wait until tomorrow.", exJpn: "明日まで待ってください。" }
             ],
@@ -1812,7 +1812,7 @@ const a1Curriculum = [
             }
         }
     },
-    {
+{
         id: 15,
         title: "Lesson 15: How to talk about routines and frequency",
         goal: "Ask and answer questions about when and how often you do daily activities. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(いつ、どのくらいの頻度で日常の活動をするかについて質問し、答える。)</span>",
@@ -1833,39 +1833,47 @@ const a1Curriculum = [
             { eng: "Week", jpn: "週", exEng: "Next week is busy.", exJpn: "来週は忙しいです。" }
         ],
         dialogue: [
-            { speaker: "A", eng: "<span class='swappable'>When do you study English?</span>", jpn: "いつ英語を勉強しますか？" },
-            { speaker: "B", eng: "I study English in the evening. <span class='swappable'>How often do you study?</span>", jpn: "夜に英語を勉強します。あなたはどのくらいの頻度で勉強しますか？" },
-            { speaker: "A", eng: "I study <i class='grammar-target'>every day</i>. I love it.", jpn: "毎日勉強します。大好きなんです。" },
-            { speaker: "B", eng: "Wow. I <i class='grammar-target'>usually</i> study on weekends. I also read English books <i class='grammar-target'>once a week</i>.", jpn: "うわあ。私はたいてい週末に勉強します。それから、週に1回英語の本を読みます。" }
+            { speaker: "A", eng: "<span class='swappable'>Do you like cooking?</span>", jpn: "料理をするのは好きですか？" },
+            { speaker: "B", eng: "Yes, I love it! It is really fun.", jpn: "はい、大好きです！とても楽しいです。" },
+            { speaker: "A", eng: "That's nice! How often do you cook?</span>", jpn: "いいですね！どのくらいの頻度で料理をしますか？" },
+            { speaker: "B", eng: "I <i class='grammar-target'>usually</i> cook dinner on weekdays. How about you? <span class='swappable'>Do you like cooking?</span>", jpn: "平日はたいてい夕食を作ります。あなたはどうですか？料理は好きですか？" },
+            { speaker: "A", eng: "<span class='swappable'>Not really</span>, so I <i class='grammar-target'>sometimes</i> cook on weekends. I like reading more.", jpn: "あまり好きではないので、週末に時々料理をするだけです。読書の方が好きです。" },
+            { speaker: "B", eng: "Oh, really? How often do you read?", jpn: "そうなんですか？どのくらいの頻度で本を読みますか？" },
+            { speaker: "A", eng: "I read <i class='grammar-target'>every night</i> before bed. And I <i class='grammar-target'>always</i> read in the morning on Sundays.", jpn: "毎晩寝る前に読みます。それと、日曜日の朝はいつも読書をします。" },
+            { speaker: "B", eng: "Wow! You read a lot. I only read <i class='grammar-target'>once a week</i>.", jpn: "わあ！たくさん読みますね。私は週に1回しか読みません。" }
         ],
         dialogueStructure: [
-            "Ask when someone does something <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(いつアクションをするか尋ねる)</span>",
-            "> State time + Ask about frequency <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(時間を答える ＋ 頻度を尋ねる)</span>",
-            "State frequency + Comment <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(頻度を答える ＋ コメントする)</span>",
-            "> React + State frequency using adverbs <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 副詞を使って頻度を伝える)</span>"
+            "Ask if someone likes an activity <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(ある活動が好きかどうか尋ねる)</span>",
+            "> Answer + Comment <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(答える ＋ コメントする)</span>",
+            "React + Ask about frequency <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 頻度を尋ねる)</span>",
+            "> State frequency + Ask back <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(頻度を伝える ＋ 聞き返す)</span>",
+            "Answer + State frequency + Mention another hobby <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(答える ＋ 頻度を伝える ＋ 別の趣味を挙げる)</span>",
+            "> React + Ask about frequency <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 頻度を尋ねる)</span>",
+            "State frequency using 'every' and 'always' <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(『every』や『always』を使って頻度を伝える)</span>",
+            "> React + State own frequency <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 自分の頻度を伝える)</span>"
         ],
         expressions: [
             { 
-                category: "1. Asking when someone does something (いつするか尋ねる)", 
+                category: "1. Asking if someone likes an activity (好きかどうか尋ねる)", 
                 options: [
-                    { eng: "When do you study English?", jpn: "いつ英語を勉強しますか？" }, 
-                    { eng: "What time do you wake up?", jpn: "何時に起きますか？" }, 
-                    { eng: "When do you exercise?", jpn: "いつ運動しますか？" }
+                    { eng: "Do you like cooking?", jpn: "料理をするのは好きですか？" }, 
+                 { eng: "Do you like to cook?", jpn: "料理をするのは好きですか？" },
+    { eng: "Are you into cooking?", jpn: "料理にハマっていますか？（料理は好きですか？）" }
                 ] 
             },
             { 
-                category: "2. Asking how often someone does something (頻度を尋ねる)", 
+                category: "2. Replying that you dislike something (何かが嫌だと答える)", 
                 options: [
-                    { eng: "How often do you study?", jpn: "どのくらいの頻度で勉強しますか？" }, 
-                    { eng: "How often do you exercise?", jpn: "どのくらいの頻度で運動しますか？" }, 
-                    { eng: "How often do you cook?", jpn: "どのくらいの頻度で料理をしますか？" }
+                    { eng: "Not really.", jpn: "あまり" }, 
+                    { eng: "Not so much.", jpn: "それほどでも" }, 
+                    { eng: "Not very much.", jpn: "どあまり" }
                 ] 
             }
         ],
         grammar: {
             point: "Adverbs of Frequency - 頻度の副詞",
             explanation: "Indefinite frequency adverbs (always, usually, sometimes) are placed <strong>before</strong> the main verb. Definite frequency phrases (every day, once a week) are placed at the <strong>end</strong> of the sentence. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>（どれくらいの頻度で何かを行うかを表現する言葉（頻度の副詞）は、その正確さによって文中の「置く場所」が変わります。<br>・<strong>漠然とした頻度（always, usually, often, sometimes, neverなど）：</strong> 一般動詞の<strong>前</strong>に置きます（例：I <u>usually</u> study.）。ただし、be動詞と一緒に使う場合はbe動詞の後ろになります。<br>・<strong>明確な頻度（every day, once a week, twice a monthなど）：</strong> 基本的に文の<strong>一番最後</strong>に置きます（例：I study <u>every day</u>. / I read <u>once a week</u>.）。この2つのルールの違いをしっかり覚えておきましょう。）</span>",
-            inDialogue: "<strong>Usage in Dialogue:</strong> Notice the word placement: 'I <u>usually</u> study' vs 'I read English books <u>once a week</u>.' <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：『I <u>usually</u> study』と『read... <u>once a week</u>』の単語の配置に注目してください。)</span>",
+            inDialogue: "<strong>Usage in Dialogue:</strong> Notice the word placement: 'I <u>usually</u> cook' vs 'I read <u>every night</u>' and 'I only read <u>once a week</u>.' <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：『I <u>usually</u> cook』と『read <u>every night</u>』『read <u>once a week</u>』の単語の配置に注目してください。)</span>",
             examples: [
                 { eng: "I always drink coffee in the morning.", jpn: "私は朝、いつもコーヒーを飲みます。" },
                 { eng: "She plays tennis twice a week.", jpn: "彼女は週に2回テニスをします。" },
@@ -1884,11 +1892,11 @@ const a1Curriculum = [
             { prompt: "They cook pasta (usually)" }
         ],
         clickingGames: [
-            { prompt: "いつ英語を勉強しますか？", target: "When do you study English?", words: ["When", "do", "you", "study", "English?"] },
-            { prompt: "私はたいてい週末に運動します。", target: "I usually exercise on weekends.", words: ["I", "usually", "exercise", "on", "weekends."] },
-            { prompt: "どのくらいの頻度で料理をしますか？", target: "How often do you cook?", words: ["How", "often", "do", "you", "cook?"] },
-            { prompt: "私は毎日勉強します。", target: "I study every day.", words: ["I", "study", "every", "day."] },
-            { prompt: "私は週に2回テニスをします。", target: "I play tennis twice a week.", words: ["I", "play", "tennis", "twice", "a", "week."] }
+            { prompt: "料理をするのは好きですか？", target: "Do you like cooking?", words: ["Do", "you", "like", "cooking?"] },
+            { prompt: "私はたいてい平日に夕食を作ります。", target: "I usually cook dinner on weekdays.", words: ["I", "usually", "cook", "dinner", "on", "weekdays."] },
+            { prompt: "どのくらいの頻度で本を読みますか？", target: "How often do you read?", words: ["How", "often", "do", "you", "read?"] },
+            { prompt: "私は毎晩寝る前に本を読みます。", target: "I read every night before bed.", words: ["I", "read", "every", "night", "before", "bed."] },
+            { prompt: "私は週に1回しか読みません。", target: "I only read once a week.", words: ["I", "only", "read", "once", "a", "week."] }
         ],
         dropdownGames: [
             { before: "When", options: ["do", "are", "have"], answer: "do", after: " you exercise?" },
@@ -1898,8 +1906,8 @@ const a1Curriculum = [
             { before: "I go to the gym", options: ["twice", "two", "always"], answer: "twice", after: " a week." }
         ],
         roleplay: {
-            a: "You are talking to a coworker. Ask them when they exercise, and ask how often they go to the gym. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(同僚と話しています。いつ運動するか、そしてどのくらいの頻度でジムに行くか尋ねてください。)</span>",
-            b: "You are a coworker. Tell them you exercise in the morning, say you go to the gym twice a week, and ask how often they cook. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(同僚役です。朝に運動すること、週に2回ジムに行くことを伝え、相手がどのくらいの頻度で料理をするか尋ねてください。)</span>"
+            a: "Ask your partner if they like an activity (like cooking or exercising), and then ask how often they do it. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(パートナーに何か（料理や運動など）が好きかどうか尋ね、その後どのくらいの頻度でするか尋ねてください。)</span>",
+            b: "Answer whether you like the activity, tell them how often you do it using 'usually', 'sometimes', or 'every', and ask them back. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(その活動が好きかどうか答え、『usually』『sometimes』『every』などを使って頻度を伝え、相手にも聞き返してください。)</span>"
         },
         homework: {
             vocab: [
@@ -1939,133 +1947,133 @@ const a1Curriculum = [
     },
     {
         id: 16,
-        title: "Lesson 16: How to point out places",
-        goal: "Help someone move house by giving instructions on where to put things using 'here', 'there', 'over here', and 'over there'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(『here』『there』『over here』『over there』を使って、物を置く場所を指示し、引っ越しを手伝う。)</span>",
+        title: "Lesson 16: How to talk about your goals",
+        goal: "Express future desires, dreams, and life goals using 'want to' and 'would like to'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(『want to』や『would like to』を使って、将来の願望、夢、人生の目標を表現する。)</span>",
         vocab: [
-            { eng: "Here", jpn: "ここ / こちら", exEng: "Come here.", exJpn: "ここに来てください。" },
-            { eng: "There", jpn: "あそこ / そこ", exEng: "Look there.", exJpn: "あそこを見てください。" },
-            { eng: "Over here", jpn: "こっちに / ここに", exEng: "Put it over here.", exJpn: "こっちに置いてください。" },
-            { eng: "Over there", jpn: "あっちに / あそこに", exEng: "The car is over there.", exJpn: "車はあそこにあります。" },
-            { eng: "Move", jpn: "引っ越す / 動かす", exEng: "Don't move.", exJpn: "動かないでください。" },
-            { eng: "Box", jpn: "箱", exEng: "This box is heavy.", exJpn: "この箱は重いです。" },
-            { eng: "Furniture", jpn: "家具", exEng: "We bought new furniture.", exJpn: "私たちは新しい家具を買いました。" },
-            { eng: "Heavy", jpn: "重い", exEng: "This bag is heavy.", exJpn: "このカバンは重いです。" },
-            { eng: "Put", jpn: "置く", exEng: "Put it on the table.", exJpn: "それをテーブルの上に置いてください。" },
-            { eng: "Leave", jpn: "置いておく / そのままにする", exEng: "Leave the key here.", exJpn: "鍵をここに置いておいてください。" },
-            { eng: "Bring", jpn: "持ってくる", exEng: "Bring your book.", exJpn: "本を持ってきてください。" },
-            { eng: "Living room", jpn: "リビング / 居間", exEng: "We are in the living room.", exJpn: "私たちはリビングにいます。" },
-            { eng: "Kitchen", jpn: "キッチン / 台所", exEng: "I cook in the kitchen.", exJpn: "私はキッチンで料理をします。" },
-            { eng: "Bedroom", jpn: "寝室", exEng: "My bedroom is small.", exJpn: "私の寝室は小さいです。" }
+            { eng: "Want to", jpn: "〜したい（一般的な願望）", exEng: "I want to sleep.", exJpn: "私は眠りたいです。" },
+            { eng: "Would like to", jpn: "〜したいのですが（丁寧な願望）", exEng: "I would like to go.", exJpn: "私は行きたいです。" },
+            { eng: "Goal", jpn: "目標", exEng: "What is your goal?", exJpn: "あなたの目標は何ですか？" },
+            { eng: "Dream", jpn: "夢", exEng: "It is my dream.", exJpn: "それは私の夢です。" },
+            { eng: "Future", jpn: "未来 / 将来", exEng: "In the future.", exJpn: "将来に。" },
+            { eng: "Next year", jpn: "来年", exEng: "Next year, I will travel.", exJpn: "来年、私は旅行します。" },
+            { eng: "Study", jpn: "勉強する", exEng: "I want to study art.", exJpn: "私は美術を勉強したいです。" },
+            { eng: "Abroad", jpn: "海外で / 海外へ", exEng: "I want to live abroad.", exJpn: "私は海外に住みたいです。" },
+            { eng: "Learn", jpn: "学ぶ", exEng: "I want to learn English.", exJpn: "私は英語を学びたいです。" },
+            { eng: "Speak", jpn: "話す", exEng: "I want to speak fluently.", exJpn: "私は流暢に話したいです。" },
+            { eng: "Job", jpn: "仕事", exEng: "I want a new job.", exJpn: "私は新しい仕事が欲しいです。" },
+            { eng: "Work", jpn: "働く", exEng: "I would like to work here.", exJpn: "私はここで働きたいです。" },
+            { eng: "Become", jpn: "〜になる", exEng: "I want to become a doctor.", exJpn: "私は医者になりたいです。" },
+            { eng: "Travel", jpn: "旅行する", exEng: "I want to travel the world.", exJpn: "私は世界を旅行したいです。" }
         ],
         dialogue: [
-            { speaker: "A", eng: "This box is very heavy. <span class='swappable'>Where should I put it?</span>", jpn: "この箱はとても重いです。どこに置けばいいですか？" },
-            { speaker: "B", eng: "Please put it <i class='grammar-target'>over there</i>, in the living room.", jpn: "あそこの、リビングルームに置いてください。" },
-            { speaker: "A", eng: "Okay. Where does this table go?", jpn: "わかりました。このテーブルはどこに置きますか？" },
-            { speaker: "B", eng: "Ah, bring it <i class='grammar-target'>over here</i>, next to the window.", jpn: "ああ、こっちの窓の隣に持ってきてください。" },
-            { speaker: "A", eng: "Got it. <span class='swappable'>Should I leave these bags here?</span>", jpn: "了解です。これらのカバンはここに置いておきましょうか？" },
-            { speaker: "B", eng: "Yes, leave them <i class='grammar-target'>there</i>. Thank you for your help!", jpn: "はい、そこに置いておいてください。手伝ってくれてありがとう！" }
+            { speaker: "A", eng: "<span class='swappable'>What do you <i class='grammar-target'>want to</i> do next year?</span>", jpn: "来年は何をしたいですか？" },
+            { speaker: "B", eng: "<span class='swappable'>I <i class='grammar-target'>want to</i> study abroad.</span>", jpn: "私は留学（海外で勉強）したいです。" },
+            { speaker: "A", eng: "Wow! <span class='swappable'>Where <i class='grammar-target'>would you like to</i> go?</span>", jpn: "わあ！どこに行きたいですか？" },
+            { speaker: "B", eng: "I <i class='grammar-target'>would like to</i> go to Canada. I <i class='grammar-target'>want to</i> learn English and see the beautiful nature.", jpn: "カナダに行きたいです。英語を学んで、美しい自然を見たいんです。" },
+            { speaker: "A", eng: "That is a great goal. I <i class='grammar-target'>want to</i> visit Canada someday, too.", jpn: "それは素晴らしい目標ですね。私もいつかカナダを訪れたいです。" },
+            { speaker: "B", eng: "We should go together in the future!", jpn: "将来、一緒に行くべきですね！" }
         ],
         dialogueStructure: [
-            "State problem + Ask where to put something <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(問題を伝える ＋ どこに置くべきか尋ねる)</span>",
-            "> Direct to a far location <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(遠くの場所を指示する)</span>",
-            "Acknowledge + Ask about another item <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(了解する ＋ 別のアイテムについて尋ねる)</span>",
-            "> Direct to a near location <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(近くの場所を指示する)</span>",
-            "Acknowledge + Ask for confirmation <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(了解する ＋ 確認を求める)</span>",
-            "> Confirm + Say thank you <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(確認する ＋ お礼を言う)</span>"
+            "Ask about a future goal/desire <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(将来の目標や願望を尋ねる)</span>",
+            "> State future desire <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(将来の願望を伝える)</span>",
+            "React + Ask for specific details (polite) <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 丁寧な表現で詳細を尋ねる)</span>",
+            "> Answer politely + Give reasons <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(丁寧に答える ＋ 理由を伝える)</span>",
+            "Compliment + Share your own similar goal <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(褒める ＋ 自分の似たような目標を共有する)</span>",
+            "> Make an enthusiastic suggestion <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(熱意のある提案をする)</span>"
         ],
         expressions: [
             { 
-                category: "1. Asking where things go (物の置き場を尋ねる)", 
+                category: "1. Asking about goals/desires (目標や願望を尋ねる)", 
                 options: [
-                    { eng: "Where should I put it?", jpn: "どこに置けばいいですか？" }, 
-                    { eng: "Where does this table go?", jpn: "このテーブルはどこに置きますか？" }, 
-                    { eng: "Where do you want this?", jpn: "これはどこにして欲しいですか？" }
+                    { eng: "What do you want to do next year?", jpn: "来年は何をしたいですか？" }, 
+                    { eng: "What do you want to be in the future?", jpn: "将来何になりたいですか？" }, 
+                    { eng: "Where would you like to go?", jpn: "どこに行きたいですか？" }
                 ] 
             },
             { 
-                category: "2. Asking for confirmation (確認を求める)", 
+                category: "2. Stating goals/desires (目標や願望を伝える)", 
                 options: [
-                    { eng: "Should I leave these bags here?", jpn: "これらのカバンはここに置いておきましょうか？" }, 
-                    { eng: "Is this okay?", jpn: "これでいいですか？" }, 
-                    { eng: "Right here?", jpn: "ここで合っていますか？" }
+                    { eng: "I want to study abroad.", jpn: "私は留学したいです。" }, 
+                    { eng: "I would like to go to Canada.", jpn: "私はカナダに行きたいです。" }, 
+                    { eng: "I want to become a doctor.", jpn: "私は医者になりたいです。" }
                 ] 
             }
         ],
         grammar: {
-            point: "Place adverbs ('here', 'there', 'over here', 'over there') - 場所を表す副詞",
-            explanation: "We use 'here' for places close to us and 'there' for places far from us. We add 'over' ('over here', 'over there') to emphasize the direction or to point to a very specific spot across a room. These words usually go at the VERY END of the sentence. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>（『here（ここ）』と『there（あそこ・そこ）』は場所を表す副詞です。自分の手が届くような近い場所には『here』を、少し離れた場所には『there』を使います。さらにその前に『over』を付けて『over here（こっちに）』『over there（あっちに）』とすると、「あちらの方向に向かって」という空間的な動きや、部屋の向こう側にある特定のスポットを強調して指し示す表現になります。引っ越しの手伝いや物を配置する時に大変便利です。これらの言葉は、通常「動詞＋目的語」の後の、文の一番最後に置かれます。）</span>",
-            inDialogue: "<strong>Usage in Dialogue:</strong> Notice how the place adverbs come at the end of the action: 'Bring it <u>over here</u>' and 'Please put it <u>over there</u>.' <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：『Bring it <u>over here</u>』や『Please put it <u>over there</u>』のように、場所を表す言葉が動作の最後に来ることに注目してください。)</span>",
+            point: "Expressing desires (want to / would like to) - 願望の表現",
+            explanation: "We use 'want to' + base verb to talk about our desires, goals, and dreams. 'Would like to' + base verb means exactly the same thing, but it is more polite and formal. It is often used to show a thoughtful or serious dream. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>（「〜したい」という自分の願望や将来の目標、夢を語る時には、『want to + 動詞の原形』を使います。「want」だけだと「〜が欲しい」という物への欲求になりますが、「to + 動詞」を付けることで「〜する行動がしたい」という意味になります。<br>これと全く同じ意味で、より丁寧で少し大人びた表現が『would like to + 動詞の原形』です。レストランでの注文だけでなく、自分の真剣な夢や将来の計画を誰かに話す時にもよく使われます（「できれば〜したいです」というニュアンス）。I'd like to と短縮できます。）</span>",
+            inDialogue: "<strong>Usage in Dialogue:</strong> Notice how A asks casually: 'What do you <u>want to</u> do', but asks about the specific dream more politely: 'Where <u>would you like to</u> go?' <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：Aが『What do you <u>want to</u> do』とカジュアルに尋ねた後、具体的な夢について『Where <u>would you like to</u> go?』とより丁寧に尋ねていることに注目してください。)</span>",
             examples: [
-                { eng: "Put the heavy box over there.", jpn: "その重い箱はあそこに置いてください。" },
-                { eng: "Come over here and look at this.", jpn: "こっちに来て、これを見てください。" },
-                { eng: "Leave your shoes here.", jpn: "靴はここに置いておいてください。" }
+                { eng: "I want to speak English fluently.", jpn: "私は英語を流暢に話したいです。" },
+                { eng: "I would like to become a teacher.", jpn: "私は教師になりたいです。" },
+                { eng: "Do you want to travel the world?", jpn: "世界を旅行したいですか？" }
             ]
         },
         grammarPracticeExample: { 
-            prompt: "Please put the box (far point)", 
-            target: "Please put the box over there." 
+            prompt: "I / want to / learn Spanish", 
+            target: "I want to learn Spanish." 
         },
         grammarPractice: [
-            { prompt: "Bring the chair (near point)" },
-            { prompt: "Leave your bags (near general)" },
-            { prompt: "The table goes (far point)" },
-            { prompt: "Come (near point) and help me." },
-            { prompt: "Put the TV (far general)" }
+            { prompt: "I / would like to / visit Europe" },
+            { prompt: "She / wants to / find a new job" },
+            { prompt: "What / do you / want to / do ?" },
+            { prompt: "They / would like to / live abroad" },
+            { prompt: "I / want to / become a doctor" }
         ],
         clickingGames: [
-            { prompt: "あそこの、リビングルームに置いてください。", target: "Please put it over there, in the living room.", words: ["Please", "put", "it", "over", "there,", "in", "the", "living", "room."] },
-            { prompt: "こっちの窓の隣に持ってきてください。", target: "Bring it over here, next to the window.", words: ["Bring", "it", "over", "here,", "next", "to", "the", "window."] },
-            { prompt: "これらのカバンはここに置いておきましょうか？", target: "Should I leave these bags here?", words: ["Should", "I", "leave", "these", "bags", "here?"] },
-            { prompt: "この箱はとても重いです。", target: "This box is very heavy.", words: ["This", "box", "is", "very", "heavy."] },
-            { prompt: "はい、そこに置いておいてください。", target: "Yes, leave them there.", words: ["Yes,", "leave", "them", "there."] }
+            { prompt: "来年は何をしたいですか？", target: "What do you want to do next year?", words: ["What", "do", "you", "want", "to", "do", "next", "year?"] },
+            { prompt: "私は留学（海外で勉強）したいです。", target: "I want to study abroad.", words: ["I", "want", "to", "study", "abroad."] },
+            { prompt: "どこに行きたいですか？", target: "Where would you like to go?", words: ["Where", "would", "you", "like", "to", "go?"] },
+            { prompt: "カナダに行きたいです。", target: "I would like to go to Canada.", words: ["I", "would", "like", "to", "go", "to", "Canada."] },
+            { prompt: "私は医者になりたいです。", target: "I want to become a doctor.", words: ["I", "want", "to", "become", "a", "doctor."] }
         ],
         dropdownGames: [
-            { before: "Please put the box over", options: ["there", "their", "they"], answer: "there", after: "." },
-            { before: "Bring the small table over", options: ["here", "hear", "near"], answer: "here", after: ", please." },
-            { before: "Should I leave the bags", options: ["here", "there", "where"], answer: "here", after: " by the door?" },
-            { before: "Look over", options: ["there", "their", "here"], answer: "there", after: " at that big sofa!" },
-            { before: "Put your coat", options: ["here", "hear", "there"], answer: "here", after: " on the bed." }
+            { before: "I", options: ["want to", "want", "wants to"], answer: "want to", after: " learn how to play the guitar." },
+            { before: "Where", options: ["do you want", "want you", "you want"], answer: "do you want", after: " to travel next?" },
+            { before: "I", options: ["would like to", "would like", "like to"], answer: "would like to", after: " become a manager in my company." },
+            { before: "My sister", options: ["wants to", "want to", "wants"], answer: "wants to", after: " study art in Paris." },
+            { before: "What", options: ["would you like", "do you like", "are you like"], answer: "would you like", after: " to do in the future?" }
         ],
         roleplay: {
-            a: "You are helping your friend move into a new house. You are carrying a heavy chair. Ask your friend where to put it, and ask if you should leave a box near the door. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(友達が新しい家に引っ越すのを手伝っています。重い椅子を運んでいます。どこに置けばいいか尋ね、ドアの近くに箱を置いていいか聞いてください。)</span>",
-            b: "You are the friend. Tell them to put the chair 'over there' (point to a spot!), and tell them to bring the box 'over here'. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(友達役です。椅子を『あそこ（over there）』に置くように伝え（場所を指さしてください！）、箱を『こっち（over here）』に持ってくるように伝えてください。)</span>"
+            a: "Ask your partner what they want to do next year. Ask them what their big dream for the future is. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(パートナーに来年何をしたいか尋ねてください。将来の大きな夢は何か尋ねてください。)</span>",
+            b: "Answer using 'I want to...' for next year, and 'I would like to...' for your big dream. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(来年については『I want to...』を使い、大きな夢については『I would like to...』を使って答えてください。)</span>"
         },
         homework: {
             vocab: [
-                { eng: "Apartment", jpn: "アパート", exEng: "He lives in an apartment.", exJpn: "彼はアパートに住んでいます。" },
-                { eng: "Stairs", jpn: "階段", exEng: "Take the stairs.", exJpn: "階段を使ってください。" },
-                { eng: "Elevator", jpn: "エレベーター", exEng: "The elevator is broken.", exJpn: "エレベーターが壊れています。" },
-                { eng: "Truck", jpn: "トラック", exEng: "The truck is outside.", exJpn: "トラックは外にあります。" },
-                { eng: "Carry", jpn: "運ぶ", exEng: "Can you carry this?", exJpn: "これを運んでくれますか？" },
-                { eng: "Drop", jpn: "落とす", exEng: "Don't drop the box.", exJpn: "箱を落とさないでください。" },
-                { eng: "Careful", jpn: "気をつけて / 慎重な", exEng: "Be careful.", exJpn: "気をつけてください。" },
-                { eng: "Break", jpn: "壊す / 割る", exEng: "Don't break the glass.", exJpn: "グラスを割らないでください。" },
-                { eng: "Fragile", jpn: "壊れやすい", exEng: "This box is fragile.", exJpn: "この箱は壊れやすいです。" },
-                { eng: "Corner", jpn: "角 / 隅", exEng: "Put it in the corner.", exJpn: "それを角に置いてください。" },
-		        { eng: "Tape", jpn: "テープ", exEng: "I need some tape.", exJpn: "テープが必要です。" },	
-		        { eng: "Scissors", jpn: "はさみ", exEng: "Where are the scissors?", exJpn: "はさみはどこですか？" },
-                { eng: "Next to", jpn: "〜の隣に", exEng: "Stand next to me.", exJpn: "私の隣に立ってください。" },
-                { eng: "Between", jpn: "〜の間に", exEng: "It is between the chairs.", exJpn: "それは椅子の間にあります。" }
+                { eng: "Future", jpn: "未来 / 将来", exEng: "Think about the future.", exJpn: "将来について考えてください。" },
+                { eng: "Goal", jpn: "目標", exEng: "My goal is to win.", exJpn: "私の目標は勝つことです。" },
+                { eng: "Dream", jpn: "夢", exEng: "Follow your dreams.", exJpn: "夢を追いかけてください。" },
+                { eng: "Become", jpn: "〜になる", exEng: "I want to become a pilot.", exJpn: "私はパイロットになりたいです。" },
+                { eng: "Start", jpn: "始める", exEng: "Start a business.", exJpn: "ビジネスを始める。" },
+                { eng: "Learn", jpn: "学ぶ", exEng: "Learn a skill.", exJpn: "スキルを学ぶ。" },
+                { eng: "Skill", jpn: "スキル / 技術", exEng: "This is a good skill.", exJpn: "これは良いスキルです。" },
+                { eng: "Language", jpn: "言語", exEng: "I study languages.", exJpn: "私は言語を勉強します。" },
+                { eng: "Abroad", jpn: "海外へ / 海外で", exEng: "Live abroad.", exJpn: "海外に住む。" },
+                { eng: "Save money", jpn: "お金を貯める", exEng: "I need to save money.", exJpn: "私はお金を貯める必要があります。" },
+                { eng: "House", jpn: "家", exEng: "Buy a house.", exJpn: "家を買う。" },
+                { eng: "Family", jpn: "家族", exEng: "Start a family.", exJpn: "家庭を持つ。" },
+                { eng: "Important", jpn: "重要な", exEng: "It is important.", exJpn: "それは重要です。" },
+                { eng: "Life", jpn: "人生 / 生活", exEng: "Enjoy your life.", exJpn: "人生を楽しんでください。" }
             ],
             reading1: {
-                title: "Task 2: Reading (A Text Message on Moving Day)",
-                instruction: "Read the message from a friend giving instructions on moving day.",
-                eng: "<strong>To:</strong> Sam<br><strong>From:</strong> David<br><br>Hi Sam, thank you for helping me move today! The truck is outside. The heavy boxes go over there in the living room. Please put the clothes here in the bedroom. Be careful with the small boxes. They are fragile, so don't leave them there on the floor. Put them over here on the kitchen counter. I will buy us pizza for lunch!",
-                jpn: "<strong>宛先：</strong> サム<br><strong>差出人：</strong> デビッド<br><br>こんにちはサム、今日は引っ越しを手伝ってくれてありがとう！トラックは外にあります。重い箱はあそこのリビングルームに置いてください。服はここの寝室に置いてください。小さな箱には気をつけて。壊れやすいので、そこの床には置かないでください。こっちのキッチンカウンターの上に置いてください。昼食にはピザをごちそうするよ！"
+                title: "Task 2: Reading (New Year's Resolutions)",
+                instruction: "Read the blog post about a person's goals for the new year.",
+                eng: "<strong>My Goals for the Future</strong><br><br>This year, I have many big goals. First, I want to learn English. I study every day because I would like to live abroad in the future. Next year, I want to travel to Australia. It is my dream. To do this, I must save money. I want to save $5,000. Also, I would like to start a new job. I want to become a computer programmer. I know it is difficult, but I will work hard. What are your goals for the future?",
+                jpn: "<strong>私の将来の目標</strong><br><br>今年は、私にはたくさんの大きな目標があります。まず、英語を学びたいです。将来海外に住みたいと思っているので、毎日勉強しています。来年はオーストラリアに旅行したいです。それが私の夢です。これをするためには、お金を貯めなければなりません。5000ドル貯めたいです。また、新しい仕事を始めたいです。コンピュータープログラマーになりたいのです。難しいこととはわかっていますが、一生懸命頑張るつもりです。あなたの将来の目標は何ですか？"
             },
             expandedDialogue: [
-                { speaker: "A", eng: "Wow, you have a lot of boxes! Where do we start?", jpn: "わあ、箱がたくさんあるね！どこから始めようか？" },
-                { speaker: "B", eng: "Let's start with the living room. Can you carry this box?", jpn: "リビングから始めよう。この箱を運んでくれる？" },
-                { speaker: "A", eng: "Sure. Where should I put it?", jpn: "もちろん。どこに置けばいい？" },
-                { speaker: "B", eng: "Please put it over there, next to the TV.", jpn: "あそこの、テレビの隣に置いてください。" },
-                { speaker: "A", eng: "Got it. What about these books?", jpn: "わかった。この本はどうする？" }
+                { speaker: "A", eng: "You study Japanese every day. Why do you study so hard?", jpn: "あなたは毎日日本語を勉強していますね。なぜそんなに一生懸命勉強するのですか？" },
+                { speaker: "B", eng: "Because I want to work in Tokyo.", jpn: "東京で働きたいからです。" },
+                { speaker: "A", eng: "That is a great goal. What kind of job do you want to do?", jpn: "それは素晴らしい目標ですね。どんな仕事をしたいのですか？" },
+                { speaker: "B", eng: "I would like to become an English teacher in Japan. I love teaching.", jpn: "日本で英語の先生になりたいです。教えることが大好きなんです。" },
+                { speaker: "A", eng: "I think you will be a great teacher. Good luck!", jpn: "あなたは素晴らしい先生になると思いますよ。頑張って！" }
             ],
             writingTask: {
-                promptEng: "Imagine you are directing someone who is helping you move furniture. Write three sentences using 'here', 'there', 'over here', or 'over there' to tell them where to put a box, a chair, and a table.",
-                promptJpn: "家具の移動を手伝ってくれている人に指示を出していると想像してください。『here』『there』『over here』または『over there』を使って、箱、椅子、テーブルをどこに置くかを伝える文を3つ書いてください。"
+                promptEng: "Write three sentences about your goals or dreams. Use 'I want to...' for a short-term goal, and 'I would like to...' for a big life dream.",
+                promptJpn: "あなたの目標や夢について3つの文を書いてください。短期的な目標には『I want to...』を、人生の大きな夢には『I would like to...』を使用してください。"
             }
         }
-    },,{
+    },{
         id: 17,
         title: "Lesson 17: How to say where things are",
         goal: "Ask where everyday items are and describe their exact location using simple prepositions (in, on, under, next to). <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(単純な前置詞（in, on, under, next to）を使って、日常の品物がどこにあるかを尋ね、その場所を伝える。)</span>",
@@ -2086,12 +2094,16 @@ const a1Curriculum = [
             { eng: "Bag", jpn: "カバン / 袋", exEng: "This bag is heavy.", exJpn: "このカバンは重いです。" }
         ],
         dialogue: [
-            { speaker: "A", eng: "I can't find my phone. <span class='swappable'>Where <i class='grammar-target'>is</i> it?</span>", jpn: "携帯電話が見つかりません。どこにありますか？" },
+            { speaker: "A", eng: "I can't find my phone. Where <i class='grammar-target'>is</i> it?</span>", jpn: "携帯電話が見つかりません。どこにありますか？" },
             { speaker: "B", eng: "<i class='grammar-target'>Is</i> it <i class='grammar-target'>on</i> the table?", jpn: "テーブルの上にありますか？" },
             { speaker: "A", eng: "No, it <i class='grammar-target'>is</i> not <i class='grammar-target'>on</i> the table.", jpn: "いいえ、テーブルの上にはありません。" },
-            { speaker: "B", eng: "Look <i class='grammar-target'>in</i> your bag.", jpn: "カバンの中を見てください。" },
+            { speaker: "B", eng: "<span class='swappable'>Look </span><i class='grammar-target'>in</i> your bag.", jpn: "カバンの中を見てください。" },
             { speaker: "A", eng: "I looked. It <i class='grammar-target'>is</i> not <i class='grammar-target'>in</i> my bag.", jpn: "見ました。カバンの中にはありません。" },
-            { speaker: "B", eng: "Oh, look! <span class='swappable'>It <i class='grammar-target'>is under</i> the sofa.</span>", jpn: "あっ、見て！ソファの下にありますよ。" }
+            { speaker: "B", eng: "<span class='swappable'>Oh, look! </span>It <i class='grammar-target'>is under</i> the sofa.", jpn: "あっ、見て！ソファの下にありますよ。" },
+            { speaker: "A", eng: "Great, thank you! Now, where <i class='grammar-target'>are</i> my keys?</span>", jpn: "よかった、ありがとう！えっと、次は鍵がどこにありますか？" },
+            { speaker: "B", eng: "They <i class='grammar-target'>are next to</i> your wallet, <i class='grammar-target'>in front of</i> the TV.", jpn: "財布の隣、テレビの前にありますよ。" },
+            { speaker: "A", eng: "I see my wallet, but my keys <i class='grammar-target'>are</i> not there.", jpn: "財布は見えますが、鍵はそこにありません。" },
+            { speaker: "B", eng: "Check <i class='grammar-target'>behind</i> the TV! Oh, yes, they <i class='grammar-target'>are</i> right there.", jpn: "テレビの後ろを確認して！あっ、はい、ちょうどそこにありますよ。" }
         ],
         dialogueStructure: [
             "State problem + Ask where it is <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(問題を伝える ＋ どこにあるか尋ねる)</span>",
@@ -2099,35 +2111,42 @@ const a1Curriculum = [
             "Deny the place <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(その場所にないと否定する)</span>",
             "> Tell someone to check another place <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(別の場所を確認するよう言う)</span>",
             "Confirm check + Deny place <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(確認したことを伝える ＋ その場所にないと否定する)</span>",
-            "> Find object + State its location <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(見つける ＋ その場所を伝える)</span>"
+            "> Find object + State its location <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(見つける ＋ その場所を伝える)</span>",
+            "Thank + Ask where plural items are <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(お礼を言う ＋ 複数形の物がどこにあるか尋ねる)</span>",
+            "> State location using 'next to' and 'in front of' <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(『next to』や『in front of』を使って場所を伝える)</span>",
+            "Deny that the items are there <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(そこにないと否定する)</span>",
+            "> Suggest checking 'behind' + Confirm location <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(『behind』を確認するよう提案する ＋ 場所を確認する)</span>"
         ],
         expressions: [
             { 
-                category: "1. Asking where something is (物の場所を尋ねる)", 
+                category: "1. Suggesting someone check a location (誰かに場所を確認するよう勧める)", 
                 options: [
-                    { eng: "Where is it?", jpn: "それはどこですか？" }, 
-                    { eng: "Where is my phone?", jpn: "私の携帯電話はどこですか？" }, 
-                    { eng: "Where are my keys?", jpn: "私の鍵はどこですか？" }
+                    { eng: "Have you checked", jpn: "～確認しましたか？" }, 
+                    { eng: "You should look", jpn: "～見てみてください。" }, 
+                    { eng: "It might be / They might be", jpn: "～かもしれない。" }
                 ] 
             },
             { 
-                category: "2. Stating a location (場所を伝える)", 
+                category: "2. Saying you found something (「何か見つけた」と言う)", 
                 options: [
-                    { eng: "It is under the sofa.", jpn: "ソファの下にあります。" }, 
-                    { eng: "It is in the bag.", jpn: "カバンの中にあります。" }, 
-                    { eng: "They are next to the door.", jpn: "ドアの隣にあります。" }
+                    { eng: "Found it / Found them", jpn: "見つけた" }, 
+                    { eng: "Here it is / Here they are", jpn: "見つけた" }, 
+                   { eng: "It's right there! / They're right here", jpn: "ちょうどそこにありますよ！" },
                 ] 
             }
         ],
-        grammar: {
-            point: "Prepositions of Place (in, on, under, next to) - 場所を表す前置詞",
-            explanation: "We use simple prepositions to say exactly where things are. We combine the preposition with a noun phrase (e.g., 'the table') to make a prepositional phrase: 'on' + 'the table' = 'on the table'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>（物が正確にどこにあるかを伝えるために、「前置詞」を使います。前置詞（in, on, under など）の後ろには、必ず名詞（the table, my bag など）を置いてセット（前置詞句）を作ります。<br>・<strong>in</strong>：空間の中にある状態（例：in the box / 箱の中に）<br>・<strong>on</strong>：表面に接触している状態（例：on the table / テーブルの上に）<br>・<strong>under</strong>：何かの真下にある状態（例：under the bed / ベッドの下に）<br>・<strong>next to</strong>：すぐ隣に並んでいる状態（例：next to the TV / テレビの隣に）<br>これらは、日常会話で探し物をしたり、部屋の説明をしたりするのに不可欠な表現です。）</span>",
-            inDialogue: "<strong>Usage in Dialogue:</strong> Notice the prepositional phrases: '<u>on</u> the table', '<u>in</u> your bag', and '<u>under</u> the sofa'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：『<u>on</u> the table』『<u>in</u> your bag』『<u>under</u> the sofa』といった前置詞句に注目してください。)</span>",
+grammar: {
+            point: "Prepositions of Place (in, on, under, next to, behind, in front of) - 場所を表す前置詞",
+            explanation: "We use prepositions of place to say exactly where things are. We combine a preposition with a noun phrase (e.g., 'the table') to make a prepositional phrase: 'on' + 'the table' = 'on the table'.<br>• <strong>in</strong>: inside an enclosed space (in the bag)<br>• <strong>on</strong>: touching a surface (on the table)<br>• <strong>under</strong>: directly below something (under the sofa)<br>• <strong>next to</strong>: beside or at the side of (next to the TV)<br>• <strong>behind</strong>: at the back of something (behind the door)<br>• <strong>in front of</strong>: facing or ahead of something (in front of the TV)<br>• <strong>between</strong>: in the middle of two things (between the sofa and the table)<br>• <strong>above</strong>: higher than something, not touching (above the desk)<br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>（物が正確にどこにあるかを伝えるために、「場所を表す前置詞」を使います。前置詞（in, on, under など）の後ろには、必ず名詞（the table, my bag など）を置いてセット（前置詞句）を作ります。<br>・<strong>in</strong>：空間の中にある状態（例：in the bag / カバンの中に）<br>・<strong>on</strong>：表面に接触している状態（例：on the table / テーブルの上に）<br>・<strong>under</strong>：何かの真下にある状態（例：under the sofa / ソファの下に）<br>・<strong>next to</strong>：すぐ隣に並んでいる状態（例：next to the TV / テレビの隣に）<br>・<strong>behind</strong>：何かの後ろ・裏側にある状態（例：behind the door / ドアの後ろに）<br>・<strong>in front of</strong>：何かの正面・前にある状態（例：in front of the TV / テレビの前に）<br>・<strong>between</strong>：2つの物の間にある状態（例：between the sofa and the table / ソファとテーブルの間に）<br>・<strong>above</strong>：接触せずに真上・上方にある状態（例：above the desk / 机の上方に）<br>これらは、日常会話で探し物をしたり、部屋や道の説明をしたりするのに不可欠な表現です。）</span>",
+            inDialogue: "<strong>Usage in Dialogue:</strong> Notice the prepositional phrases: '<u>on</u> the table', '<u>in</u> your bag', '<u>under</u> the sofa', '<u>next to</u> your wallet', '<u>in front of</u> the TV', and '<u>behind</u> the TV'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：『<u>on</u> the table』『<u>in</u> your bag』『<u>under</u> the sofa』『<u>next to</u> your wallet』『<u>in front of</u> the TV』『<u>behind</u> the TV』といった前置詞句に注目してください。)</span>",
             examples: [
                 { eng: "The cat is on the chair.", jpn: "猫は椅子の上にいます。" },
                 { eng: "My shoes are under the bed.", jpn: "私の靴はベッドの下にあります。" },
-                { eng: "The bank is next to the station.", jpn: "銀行は駅の隣にあります。" }
+                { eng: "The bank is next to the station.", jpn: "銀行は駅の隣にあります。" },
+                { eng: "The keys are behind the TV.", jpn: "鍵はテレビの後ろにあります。" },
+                { eng: "The lamp is between the sofa and the desk.", jpn: "ランプはソファと机の間にあります。" }
             ]
+        
         },
         grammarPracticeExample: { 
             prompt: "The book / on / the table", 
@@ -2218,9 +2237,13 @@ const a1Curriculum = [
             { speaker: "A", eng: "Where are you from?", jpn: "出身はどこですか？" },
             { speaker: "B", eng: "I am from Kyoto. It is a beautiful city.", jpn: "京都出身です。美しい街ですよ。" },
             { speaker: "A", eng: "<span class='swappable'>What is it like?</span>", jpn: "どんなところですか？" },
-            { speaker: "B", eng: "It is very old and famous. <span class='swappable'><i class='grammar-target'>There are</i> many temples.</span>", jpn: "とても古くて有名です。お寺がたくさんあります。" },
+            { speaker: "B", eng: "It is very old and famous. <i class='grammar-target'>There are</i> many temples.</span>", jpn: "とても古くて有名です。お寺がたくさんあります。" },
             { speaker: "A", eng: "<i class='grammar-target'>Is there</i> a beach?", jpn: "ビーチはありますか？" },
-            { speaker: "B", eng: "No, <i class='grammar-target'>there isn't</i>. But <i class='grammar-target'>there are</i> beautiful mountains.", jpn: "いいえ、ありません。でも美しい山があります。" }
+            { speaker: "B", eng: "No, <i class='grammar-target'>there isn't</i>. But <i class='grammar-target'>there are</i> beautiful mountains and a big river. How about you? Where are you from?", jpn: "いいえ、ありません。でも美しい山と大きな川がありますよ。あなたはどうですか？出身はどこですか？" },
+            { speaker: "A", eng: "I am from a small town near Sydney.", jpn: "シドニーの近くの小さな町出身です。" },
+            { speaker: "B", eng: "Oh, nice! Is it noisy?", jpn: "わあ、いいですね！騒がしいところですか？" },
+            { speaker: "A", eng: "No, it is very quiet. <i class='grammar-target'>There is</i> a nice beach, and the people are friendly.", jpn: "いいえ、とても静かです。素敵なビーチがあって、人々はフレンドリーですよ。" },
+            { speaker: "B", eng: "<span class='swappable'>That sounds wonderful!</span>", jpn: "素敵ですね" }
         ],
         dialogueStructure: [
             "Ask origin <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(出身を尋ねる)</span>",
@@ -2228,35 +2251,42 @@ const a1Curriculum = [
             "Ask for a description <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(どんな場所か尋ねる)</span>",
             "> Describe atmosphere + State what is there <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(雰囲気を描写する ＋ 何があるかを伝える)</span>",
             "Ask if a specific place exists <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(特定の場所があるか尋ねる)</span>",
-            "> Deny existence + State what exists instead <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(ないと伝える ＋ 代わりに何があるかを伝える)</span>"
+            "> Deny existence + State what exists + Ask back <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(ないと伝える ＋ 代わりにあるものを伝える ＋ 聞き返す)</span>",
+            "State own origin and size <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(自分の出身と規模を伝える)</span>",
+            "> React + Ask about atmosphere <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 雰囲気について尋ねる)</span>",
+            "Describe atmosphere, places, and people <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(雰囲気、場所、人々について描写する)</span>",
+            "> React <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する)</span>"
         ],
         expressions: [
             { 
                 category: "1. Asking for a description (どんな場所か尋ねる)", 
                 options: [
                     { eng: "What is it like?", jpn: "どんなところですか？" }, 
-                    { eng: "How is your hometown?", jpn: "あなたの故郷はどうですか？" }, 
+              { eng: "What kind of place is it?", jpn: "そこはどんな種類の場所ですか？" },
                     { eng: "Tell me about your city.", jpn: "あなたの街について教えてください。" }
                 ] 
             },
             { 
-                category: "2. Stating what is there (何があるか伝える)", 
+                category: "2. Reacting to a description of someone's hometown (誰かの故郷についての説明に対する反応)", 
                 options: [
-                    { eng: "There are many temples.", jpn: "お寺がたくさんあります。" }, 
-                    { eng: "There are big buildings.", jpn: "大きな建物があります。" }, 
-                    { eng: "There is a beautiful park.", jpn: "美しい公園があります。" }
+                  { eng: "It sounds like a great place!", jpn: "とても良い場所そうですね！" }, 
+                 { eng: "What a nice place!", jpn: "なんて素敵な場所なんでしょう！" },
+                   { eng: "That sounds lovely!", jpn: "とても素敵ですね！" }
                 ] 
             }
         ],
-        grammar: {
-            point: "There is / There are - 〜がある、〜がいる",
-            explanation: "We use 'there is' for singular nouns (one thing) and 'there are' for plural nouns (two or more things) to say that something exists in a place. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>（「〜があります」「〜がいます」というように、物や人の存在を伝えるときには『There is』や『There are』を使います。この構文では、There自体には意味がなく、その後ろに来る名詞が本当の主語になります。<br>・続く名詞が単数（1つ）の場合：<strong>There is</strong> a park.（公園があります）<br>・続く名詞が複数（2つ以上）の場合：<strong>There are</strong> many temples.（たくさんのお寺があります）<br>疑問文を作る時は、be動詞を前に出して『Is there...?』や『Are there...?』とします。故郷の紹介や道案内など、街の様子を語る時に最もよく使う表現です。）</span>",
-            inDialogue: "<strong>Usage in Dialogue:</strong> Notice the difference: '<u>There are</u> many temples' (plural) and '<u>Is there</u> a beach?' (singular). <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：『<u>There are</u> many temples（複数）』と『<u>Is there</u> a beach?（単数）』の違いに注目してください。)</span>",
+     grammar: {
+            point: "There is / There are (Affirmative, Negative & Questions) - 〜がある・いない",
+            explanation: "We use <strong>there is</strong> and <strong>there are</strong> to say that something exists (or doesn't exist) in a place:<br>• <strong>Singular (+):</strong> <strong>There is</strong> a park. (one thing)<br>• <strong>Plural (+):</strong> <strong>There are</strong> many temples. (two or more things)<br>• <strong>Negative (-):</strong> Add <strong>not</strong> after 'is' or 'are' → <strong>There isn't</strong> a beach. / <strong>There aren't</strong> any beaches. <em>(*We usually use 'any' with plural nouns in negatives and questions.)</em><br>• <strong>Questions (?):</strong> Move 'is' or 'are' to the front → <strong>Is there</strong> a beach? / <strong>Are there</strong> any restaurants?<br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>（「〜があります」「〜がいます」というように、物や人の存在を伝えるときには『There is』や『There are』を使います。この構文では、There自体には意味がなく、その後ろに来る名詞が本当の主語になります。<br>・<strong>肯定文（単数・1つ）：</strong> <strong>There is</strong> a park.（公園があります）<br>・<strong>肯定文（複数・2つ以上）：</strong> <strong>There are</strong> many temples.（たくさんのお寺があります）<br>・<strong>否定文（「〜がない」）：</strong> be動詞の後ろに not をつけて <strong>There isn't</strong>（単数）や <strong>There aren't</strong>（複数）にします。複数形の否定文では『There aren't <u>any</u> beaches.（ビーチは1つもありません）』のように、よく <strong>any</strong> を一緒に使います。<br>・<strong>疑問文（「〜はありますか？」）：</strong> be動詞を前に出して『Is there...?』や『Are there...?』とし、答えるときは『Yes, there is. / No, there isn't.』のように there を使って答えます。）</span>",
+            inDialogue: "<strong>Usage in Dialogue:</strong> Notice the positive, negative, and question forms: '<u>There are</u> many temples' (+ plural), '<u>Is there</u> a beach?' (? singular), 'No, <u>there isn't</u>' (- singular), and '<u>Are there</u> good restaurants?' (? plural). <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：肯定・否定・疑問の形に注目してください。『<u>There are</u> many temples（複数・肯定）』『<u>Is there</u> a beach?（単数・疑問）』『No, <u>there isn't</u>（単数・否定）』『<u>Are there</u> good restaurants?（複数・疑問）』が使われています。)</span>",
             examples: [
                 { eng: "There is a park near my house.", jpn: "私の家の近くに公園があります。" },
                 { eng: "There are many people in Tokyo.", jpn: "東京にはたくさんの人がいます。" },
+                { eng: "There isn't an airport in my town.", jpn: "私の町には空港がありません。" },
+                { eng: "There aren't any beaches here.", jpn: "ここにはビーチが1つもありません。" },
                 { eng: "Is there a hospital in this town?", jpn: "この町に病院はありますか？" }
             ]
+        
         },
         grammarPracticeExample: { 
             prompt: "a park / near my house (+)", 
@@ -2965,7 +2995,7 @@ const a1Curriculum = [
                 promptJpn: "買い物リストやレシピを作っていると想像してください。単位（a cup of, a loaf of, 200 grams of, a bottle of など）を使って3つの文を書いてください。"
             }
         }
-    },,{
+    },{
         id: 24,
         title: "Lesson 24: How to talk about general facts",
         goal: "Talk about general truths, concepts, and categories using plural and uncountable nouns without articles. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(冠詞（a, an, the）を使わずに、複数形や不可算名詞を用いて、一般的な事実や概念、カテゴリーについて話す。)</span>",
@@ -3865,7 +3895,7 @@ const a1Curriculum = [
                 promptJpn: "カフェにいると想像してください。あなたと店員との間の短い会話を書いてください。食べ物の注文、飲み物の注文、そして店内か持ち帰りかを含めてください。"
             }
         }
-    },,{
+    },{
         id: 31,
         title: "Lesson 31: How to buy a train ticket",
         goal: "Ask for and purchase a train ticket to a specific destination. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(特定の目的地までの電車の切符を尋ねて購入する。)</span>",
@@ -4764,7 +4794,7 @@ const a1Curriculum = [
                 promptJpn: "あなたの将来の計画（今週末、来月、または来年）について3つの文を書いてください。『be going to』を使用してください。"
             }
         }
-    },,{
+    },{
         id: 38,
         title: "Lesson 38: How to make a suggestion",
         goal: "Make suggestions and invite people to do things using 'Let's', 'Why don't we', and 'How about'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>（『Let's』『Why don't we』『How about』を使って、提案をしたり人を誘ったりする。）</span>",
@@ -5669,7 +5699,7 @@ const a1Curriculum = [
                 promptJpn: "あなたの人生の経験について3つの文を書いてください。今までにやったことがあることを2つ（『私は〜に行ったことがあります』や『私は〜を食べたことがあります』）、一度もやったことがないことを1つ（『私は一度も〜したことがありません』）書いてください。"
             }
         }
-    },,{
+    },{
         id: 45,
         title: "Lesson 45: How to talk about other people",
         goal: "Use object pronouns (me, you, him, her, us, them) to refer to people who receive an action. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(目的格の代名詞（me, you, him, her, us, them）を使って、動作を受ける人について話す。)</span>",
@@ -6443,133 +6473,5 @@ const a1Curriculum = [
             }
         }
     },
-    {
-        id: 51,
-        title: "Lesson 51: How to talk about your goals",
-        goal: "Express future desires, dreams, and life goals using 'want to' and 'would like to'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(『want to』や『would like to』を使って、将来の願望、夢、人生の目標を表現する。)</span>",
-        vocab: [
-            { eng: "Want to", jpn: "〜したい（一般的な願望）", exEng: "I want to sleep.", exJpn: "私は眠りたいです。" },
-            { eng: "Would like to", jpn: "〜したいのですが（丁寧な願望）", exEng: "I would like to go.", exJpn: "私は行きたいです。" },
-            { eng: "Goal", jpn: "目標", exEng: "What is your goal?", exJpn: "あなたの目標は何ですか？" },
-            { eng: "Dream", jpn: "夢", exEng: "It is my dream.", exJpn: "それは私の夢です。" },
-            { eng: "Future", jpn: "未来 / 将来", exEng: "In the future.", exJpn: "将来に。" },
-            { eng: "Next year", jpn: "来年", exEng: "Next year, I will travel.", exJpn: "来年、私は旅行します。" },
-            { eng: "Study", jpn: "勉強する", exEng: "I want to study art.", exJpn: "私は美術を勉強したいです。" },
-            { eng: "Abroad", jpn: "海外で / 海外へ", exEng: "I want to live abroad.", exJpn: "私は海外に住みたいです。" },
-            { eng: "Learn", jpn: "学ぶ", exEng: "I want to learn English.", exJpn: "私は英語を学びたいです。" },
-            { eng: "Speak", jpn: "話す", exEng: "I want to speak fluently.", exJpn: "私は流暢に話したいです。" },
-            { eng: "Job", jpn: "仕事", exEng: "I want a new job.", exJpn: "私は新しい仕事が欲しいです。" },
-            { eng: "Work", jpn: "働く", exEng: "I would like to work here.", exJpn: "私はここで働きたいです。" },
-            { eng: "Become", jpn: "〜になる", exEng: "I want to become a doctor.", exJpn: "私は医者になりたいです。" },
-            { eng: "Travel", jpn: "旅行する", exEng: "I want to travel the world.", exJpn: "私は世界を旅行したいです。" }
-        ],
-        dialogue: [
-            { speaker: "A", eng: "<span class='swappable'>What do you <i class='grammar-target'>want to</i> do next year?</span>", jpn: "来年は何をしたいですか？" },
-            { speaker: "B", eng: "<span class='swappable'>I <i class='grammar-target'>want to</i> study abroad.</span>", jpn: "私は留学（海外で勉強）したいです。" },
-            { speaker: "A", eng: "Wow! <span class='swappable'>Where <i class='grammar-target'>would you like to</i> go?</span>", jpn: "わあ！どこに行きたいですか？" },
-            { speaker: "B", eng: "I <i class='grammar-target'>would like to</i> go to Canada. I <i class='grammar-target'>want to</i> learn English and see the beautiful nature.", jpn: "カナダに行きたいです。英語を学んで、美しい自然を見たいんです。" },
-            { speaker: "A", eng: "That is a great goal. I <i class='grammar-target'>want to</i> visit Canada someday, too.", jpn: "それは素晴らしい目標ですね。私もいつかカナダを訪れたいです。" },
-            { speaker: "B", eng: "We should go together in the future!", jpn: "将来、一緒に行くべきですね！" }
-        ],
-        dialogueStructure: [
-            "Ask about a future goal/desire <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(将来の目標や願望を尋ねる)</span>",
-            "> State future desire <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(将来の願望を伝える)</span>",
-            "React + Ask for specific details (polite) <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(反応する ＋ 丁寧な表現で詳細を尋ねる)</span>",
-            "> Answer politely + Give reasons <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(丁寧に答える ＋ 理由を伝える)</span>",
-            "Compliment + Share your own similar goal <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(褒める ＋ 自分の似たような目標を共有する)</span>",
-            "> Make an enthusiastic suggestion <br><span class='jpn-text' style='font-size:0.85rem; color:var(--text-light); font-weight:normal;'>(熱意のある提案をする)</span>"
-        ],
-        expressions: [
-            { 
-                category: "1. Asking about goals/desires (目標や願望を尋ねる)", 
-                options: [
-                    { eng: "What do you want to do next year?", jpn: "来年は何をしたいですか？" }, 
-                    { eng: "What do you want to be in the future?", jpn: "将来何になりたいですか？" }, 
-                    { eng: "Where would you like to go?", jpn: "どこに行きたいですか？" }
-                ] 
-            },
-            { 
-                category: "2. Stating goals/desires (目標や願望を伝える)", 
-                options: [
-                    { eng: "I want to study abroad.", jpn: "私は留学したいです。" }, 
-                    { eng: "I would like to go to Canada.", jpn: "私はカナダに行きたいです。" }, 
-                    { eng: "I want to become a doctor.", jpn: "私は医者になりたいです。" }
-                ] 
-            }
-        ],
-        grammar: {
-            point: "Expressing desires (want to / would like to) - 願望の表現",
-            explanation: "We use 'want to' + base verb to talk about our desires, goals, and dreams. 'Would like to' + base verb means exactly the same thing, but it is more polite and formal. It is often used to show a thoughtful or serious dream. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>（「〜したい」という自分の願望や将来の目標、夢を語る時には、『want to + 動詞の原形』を使います。「want」だけだと「〜が欲しい」という物への欲求になりますが、「to + 動詞」を付けることで「〜する行動がしたい」という意味になります。<br>これと全く同じ意味で、より丁寧で少し大人びた表現が『would like to + 動詞の原形』です。レストランでの注文だけでなく、自分の真剣な夢や将来の計画を誰かに話す時にもよく使われます（「できれば〜したいです」というニュアンス）。I'd like to と短縮できます。）</span>",
-            inDialogue: "<strong>Usage in Dialogue:</strong> Notice how A asks casually: 'What do you <u>want to</u> do', but asks about the specific dream more politely: 'Where <u>would you like to</u> go?' <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話での使い方：Aが『What do you <u>want to</u> do』とカジュアルに尋ねた後、具体的な夢について『Where <u>would you like to</u> go?』とより丁寧に尋ねていることに注目してください。)</span>",
-            examples: [
-                { eng: "I want to speak English fluently.", jpn: "私は英語を流暢に話したいです。" },
-                { eng: "I would like to become a teacher.", jpn: "私は教師になりたいです。" },
-                { eng: "Do you want to travel the world?", jpn: "世界を旅行したいですか？" }
-            ]
-        },
-        grammarPracticeExample: { 
-            prompt: "I / want to / learn Spanish", 
-            target: "I want to learn Spanish." 
-        },
-        grammarPractice: [
-            { prompt: "I / would like to / visit Europe" },
-            { prompt: "She / wants to / find a new job" },
-            { prompt: "What / do you / want to / do ?" },
-            { prompt: "They / would like to / live abroad" },
-            { prompt: "I / want to / become a doctor" }
-        ],
-        clickingGames: [
-            { prompt: "来年は何をしたいですか？", target: "What do you want to do next year?", words: ["What", "do", "you", "want", "to", "do", "next", "year?"] },
-            { prompt: "私は留学（海外で勉強）したいです。", target: "I want to study abroad.", words: ["I", "want", "to", "study", "abroad."] },
-            { prompt: "どこに行きたいですか？", target: "Where would you like to go?", words: ["Where", "would", "you", "like", "to", "go?"] },
-            { prompt: "カナダに行きたいです。", target: "I would like to go to Canada.", words: ["I", "would", "like", "to", "go", "to", "Canada."] },
-            { prompt: "私は医者になりたいです。", target: "I want to become a doctor.", words: ["I", "want", "to", "become", "a", "doctor."] }
-        ],
-        dropdownGames: [
-            { before: "I", options: ["want to", "want", "wants to"], answer: "want to", after: " learn how to play the guitar." },
-            { before: "Where", options: ["do you want", "want you", "you want"], answer: "do you want", after: " to travel next?" },
-            { before: "I", options: ["would like to", "would like", "like to"], answer: "would like to", after: " become a manager in my company." },
-            { before: "My sister", options: ["wants to", "want to", "wants"], answer: "wants to", after: " study art in Paris." },
-            { before: "What", options: ["would you like", "do you like", "are you like"], answer: "would you like", after: " to do in the future?" }
-        ],
-        roleplay: {
-            a: "Ask your partner what they want to do next year. Ask them what their big dream for the future is. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(パートナーに来年何をしたいか尋ねてください。将来の大きな夢は何か尋ねてください。)</span>",
-            b: "Answer using 'I want to...' for next year, and 'I would like to...' for your big dream. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(来年については『I want to...』を使い、大きな夢については『I would like to...』を使って答えてください。)</span>"
-        },
-        homework: {
-            vocab: [
-                { eng: "Future", jpn: "未来 / 将来", exEng: "Think about the future.", exJpn: "将来について考えてください。" },
-                { eng: "Goal", jpn: "目標", exEng: "My goal is to win.", exJpn: "私の目標は勝つことです。" },
-                { eng: "Dream", jpn: "夢", exEng: "Follow your dreams.", exJpn: "夢を追いかけてください。" },
-                { eng: "Become", jpn: "〜になる", exEng: "I want to become a pilot.", exJpn: "私はパイロットになりたいです。" },
-                { eng: "Start", jpn: "始める", exEng: "Start a business.", exJpn: "ビジネスを始める。" },
-                { eng: "Learn", jpn: "学ぶ", exEng: "Learn a skill.", exJpn: "スキルを学ぶ。" },
-                { eng: "Skill", jpn: "スキル / 技術", exEng: "This is a good skill.", exJpn: "これは良いスキルです。" },
-                { eng: "Language", jpn: "言語", exEng: "I study languages.", exJpn: "私は言語を勉強します。" },
-                { eng: "Abroad", jpn: "海外へ / 海外で", exEng: "Live abroad.", exJpn: "海外に住む。" },
-                { eng: "Save money", jpn: "お金を貯める", exEng: "I need to save money.", exJpn: "私はお金を貯める必要があります。" },
-                { eng: "House", jpn: "家", exEng: "Buy a house.", exJpn: "家を買う。" },
-                { eng: "Family", jpn: "家族", exEng: "Start a family.", exJpn: "家庭を持つ。" },
-                { eng: "Important", jpn: "重要な", exEng: "It is important.", exJpn: "それは重要です。" },
-                { eng: "Life", jpn: "人生 / 生活", exEng: "Enjoy your life.", exJpn: "人生を楽しんでください。" }
-            ],
-            reading1: {
-                title: "Task 2: Reading (New Year's Resolutions)",
-                instruction: "Read the blog post about a person's goals for the new year.",
-                eng: "<strong>My Goals for the Future</strong><br><br>This year, I have many big goals. First, I want to learn English. I study every day because I would like to live abroad in the future. Next year, I want to travel to Australia. It is my dream. To do this, I must save money. I want to save $5,000. Also, I would like to start a new job. I want to become a computer programmer. I know it is difficult, but I will work hard. What are your goals for the future?",
-                jpn: "<strong>私の将来の目標</strong><br><br>今年は、私にはたくさんの大きな目標があります。まず、英語を学びたいです。将来海外に住みたいと思っているので、毎日勉強しています。来年はオーストラリアに旅行したいです。それが私の夢です。これをするためには、お金を貯めなければなりません。5000ドル貯めたいです。また、新しい仕事を始めたいです。コンピュータープログラマーになりたいのです。難しいこととはわかっていますが、一生懸命頑張るつもりです。あなたの将来の目標は何ですか？"
-            },
-            expandedDialogue: [
-                { speaker: "A", eng: "You study Japanese every day. Why do you study so hard?", jpn: "あなたは毎日日本語を勉強していますね。なぜそんなに一生懸命勉強するのですか？" },
-                { speaker: "B", eng: "Because I want to work in Tokyo.", jpn: "東京で働きたいからです。" },
-                { speaker: "A", eng: "That is a great goal. What kind of job do you want to do?", jpn: "それは素晴らしい目標ですね。どんな仕事をしたいのですか？" },
-                { speaker: "B", eng: "I would like to become an English teacher in Japan. I love teaching.", jpn: "日本で英語の先生になりたいです。教えることが大好きなんです。" },
-                { speaker: "A", eng: "I think you will be a great teacher. Good luck!", jpn: "あなたは素晴らしい先生になると思いますよ。頑張って！" }
-            ],
-            writingTask: {
-                promptEng: "Write three sentences about your goals or dreams. Use 'I want to...' for a short-term goal, and 'I would like to...' for a big life dream.",
-                promptJpn: "あなたの目標や夢について3つの文を書いてください。短期的な目標には『I want to...』を、人生の大きな夢には『I would like to...』を使用してください。"
-            }
-        }
-    }
+    
 ];
